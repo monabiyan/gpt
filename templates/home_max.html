@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>LucidGPT</title>
+    <!-- Required meta tags -->
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous" />
+
+    <style></style>
+  </head>
+  <body>
+    <div class="container">
+      <div class="row justify-content-center">
+        <div class="col-md-6 text-center">
+          <img src="{{ url_for('static', filename='images/lucidgpt_logo.png') }}" alt="Chatbot logo" id="logo">
+        </div>
+      </div>
+
+      <div class="row justify-content-center">
+        <div class="col-md-6">
+          <form action="{{ url_for('get_bot_response') }}" method="POST">
+            <div class="form-group">
+              <label for="inputQuestion">
+              <font size="-1">Hi! This is your LucidGPT AI partner. I can answer questions
+                about the following topics:
+                <li>Questions about Lucid Owners feedback on range, efficiency and performance*</li>
+                <li>Data Science Onboarding</li>
+                <li>Instruction on how to use Event Detector and Feature Generator</li></font>
+                <br>
+                <br>
+                How can I help?
+              </label>
+              <input type="text" class="form-control" id="inputQuestion" name="question" />
+            </div>
+            <button type="submit" class="btn btn-primary">Submit</button>
+          </form>
+        </div>
+      </div>
+
+      {% if answer %}
+      <div class="row justify-content-center mt-5">
+        <div class="col-md-6">
+          <div class="card">
+            <div class="card-body">
+              <h5 class="card-title">LucidGPT:</h5>
+              <p class="card-text">{{ answer }}</p>
+            </div>
+          </div>
+        </div>
+      </div>
+      {% endif %}
+      <br>
+      <br><br><br><br>
+      <div class="row justify-content-center">
+        <div class="col-md-6">
+          <p style="position: absolute; bottom; color:#A9A9A9">
+            <font size="-1">*Comments are analyzed using
+            LucidGPT-SentimentAnalyzer from over 400 comments
+          extracted from 1,500+ lucid owners feedback from LucidOwners.com
+            <br>
+            <br>
+            <i> ©2023 Lucid Motors. All rights reserved </i>
+            </font>
+          </p>
+        </div>
+      </div>
+    </div>
+
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.3/dist/umd/popper.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.min.js"></script>
+  </body>
+</html>
