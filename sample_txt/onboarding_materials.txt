@@ -1,0 +1,54 @@
+This is your second step during onboarding process! If you ask what was my first step then you are in the wrong place :smiley:! First step is to follow our public onboarding page (DataSci Onboarding).
+
+Here are additional items to complete:
+
+Credentials
+Follow “resources and credentials” wiki page and install and establish database connections etc.
+
+Lucid HQ Room Locations
+'Some url' - Connect your OneDrive account 
+
+HQ Rooms as of Oct 2022:
+@someurl
+- Connect your OneDrive account 
+
+Or Newark Conference Room Maps 
+
+Or wiki page with latest link (in case above link is broken): @someurl
+
+If you need name tag for your desk, create HR ticket and request one by indicating your name and desk number @somenumber. And if you need paper name tag for your desk create a Facilities ticket.
+
+Team Email Accounts
+Please ask person1, person2 to add you to the following Office365Group in outlook (comes with group calendar and send-as rights):
+
+Group: @someurl Primarily used for internal and external communications.
+
+Once you are added, you can add the group calendar to your outlook calendar. 
+
+Use group outlook calendar to block your PTOs or view other team members status if they are on PTO or not available in certain days.
+
+Send-as right is only granted by IT and not owners of the group. So if you need to send an email using this group domain ask one of the owners to get permission so that you can create IT ticket and request “send-as” rights. However, even without send-as right you can still send emails but it will show “<your lucid email> on behalf of 'some title' on the sender’s email. 
+
+One last point, to be able to send as DSML domain, you will need to use outlook web (Outlook ). Outlook App won’t work for “send-as” email.
+
+Create IT ticket and request to be added to these Shared Mailboxes: 
+
+@somemailbox
+
+DataScienceSupport@ is used as primary email domain across the company for request/question/project intake process. It has Has a dedicated mailbox to receive inbound messages. You will be able to send emails directly from this account.
+
+DataScience@ is used as a placeholder for future use.
+
+To add the new inboxes to your outlook account follow instructions here: Sending from a Shared Mailbox on Outlook Desktop App - Mac. 
+
+Wonder why these two are different? one example distinction is that OfficeGroup comes with Teams channel but Shared mailboxe does not.
+
+Supplements
+You can find data engineering backend in this page (how data is being parsed and ETL pipelines) : Data Engineering Backend Overview 
+
+Job dEscription of some internal roles for interview preparation can be found here: Interview Coverage.xlsx
+
+Get your hands dirty with coding!
+Are you ready? follow this page to get started with your first project:
+
+Get your hands dirty with code! 

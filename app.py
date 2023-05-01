@@ -32,7 +32,7 @@ class Chatbot:
 
 #env variable
 OPENAIKEY='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'
-databox='/Users/mohsennabian/Desktop/sample_txt/fmvss/'
+databox='./sample_txt/fmvss/'
 
 bot = Chatbot(databox, OPENAIKEY)
 

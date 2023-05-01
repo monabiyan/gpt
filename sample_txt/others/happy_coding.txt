@@ -1,0 +1,38 @@
+To get started with hands on coding other than Jupyterhub which is good for quick and exploratory coding we have an automated SW-oriented way of development and deployment of jobs to clusters. 
+
+Job here refer to projects or application you build and intend to run (e.g. python scripts). Again, note JupyterHub is not suitable (at least as of Nov 2022) for proper application development so we should follow the following steps to start developing proper DS applications.
+
+Requirements:
+
+You must complete all onboarding items (especially AWS role setup)
+
+You will need a python IDE to work on your laptop. We highly recommend PyCharm as it is best suited for software development tasks. you can see some info different IDEs here: 
+
+Python IDEs & Best Practices 
+
+You will need to get familiarize yourself with Git commands:
+
+ Data Science Source Control Management - Gitlab
+
+Now we can get started with your first project! There are two main steps here:
+
+First you need to set up your project space (in gitlab by creating a project and cloning to your local and running a few simple bash commands to generate some initial files)
+
+Second, you need to sync a series of shared libraries and tools called data science utilities (or ds_utils) to your project directory. By setting up your project and ds_utils you are ready to develop, test and deploy directly form your laptop to any environment! 
+Luckily you don’t have to worry about manually setting up these steps as we have automated these two steps for you.
+
+Follow instructions here to get going with your first Project: Git Project Setup with DS_Utils 
+
+Now you have three options to develop, test and deploy:
+
+Set up your local laptop to run everything locally (use laptop as one spark node, set up Jar files ,etc.) which this method can be cumbersome! however it provides an easy way to debug using pycharm (you can run line by line code and debug except for parts where you need to write data to databases which it is not authenticated)
+
+Or alternatively you can use docker container for local testing but you would use the flexibility of developing and debugging directly using IDE. In this case another alternative to help develop faster would be using Jupyterhub for your core custom code and functions and once ensured its functioning as expected then you can use docker container approach to test full application
+
+To use docker container follows Setup section of this page: Docker with DS_Utils 
+
+Finally once tested successfully you can deploy to Airflow for orchestration (schedule to run your application on a regular basis e.g. daily)
+
+There are several hands on training and workshops which you can watch to learn more: Workshops & Tutorials For Lucid Developers
+
+Happy coding!

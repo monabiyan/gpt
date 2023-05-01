@@ -1,0 +1,1017 @@
+COUNTRY :U.S.A.
+ORIGINAL :F.R. Vol. 36 No. 232 - 02.12.1971
+© InterRegs Ltd 2012
+ FEDERAL MOTOR VEHICLE
+SAFETY STANDARD (49 CFR PART 571)
+FMVSS 201
+OCCUPANT PROTECTION IN INTERIOR IMPACT
+ORIGINAL: F.R. Vol. 36 No. 232 − 02.12.1971 and amended to May 1991
+Amended subsequently:
+F.R. Vol. 56 No.109 − 06.06.1991 F.R. Vol. 56 No.160 − 18.08.1995 F.R. Vol. 62 No. 67 − 08.04.1997 F.R. Vol. 63 No. 1 − 02.01.1998 F.R. Vol. 63 No.149 − 04.08.1998 F.R. Vol. 63 No. 67 − 28.08.1998 F.R. Vol. 64 No. 29 − 12.02.1999 F.R. Vol. 64 No.239 − 14.12.1999 F.R. Vol. 67 No.117 − 18.06.2002 F.R. Vol. 67 No.249 − 27.12.2002 F.R. Vol. 68 No.167 − 28.08.2003 F.R. Vol. 69 No. 39 − 27.02.2004 F.R. Vol. 69 No.235 − 08.12.2004 F.R. Vol. 70 No.168 − 31.08.2005 F.R. Vol. 71 No.167 − 29.08.2006 F.R. Vol. 72 No.171 − 05.09.2007 F.R. Vol. 72 No.175 − 11.09.2007 F.R. Vol. 73 No.111 − 09.06.2008 F.R. Vol. 77 No. 4 – 06.01.2012
+TITLE: Occupant Protection in
+Interior Impact Jan/2012
+Licenced to: ATIEVA. Internal Use Only.
+Generated on 2015-06-24 13:40:51 by richardcolley@atieva.com
+FMVSS 201 PAGE: 1
+
+COUNTRY :U.S.A. © InterRegs Ltd 2012 ORIGINAL :F.R. Vol. 36 No. 232 - 02.12.1971
+§ 571.201 Standard No. 201; Occupant protection in interior impact.
+S1. Purpose and scope. This standard specifies requirements to afford impact protection for occupants.
+S2. Application. This standard applies to passenger cars and to multipurpose passenger vehicles, trucks and buses with a GVWR of 4,536 kilograms or less, except that the requirements of S6 do not apply to buses with a GVWR of more than 3,860 kilograms.
+S3. Definitions. A-pillar means any pillar that is entirely forward of a transverse vertical plane passing through the seating reference point of the driver's seat.
+Ambulance means a motor vehicle designed exclusively for the purpose of emergency medical care, as evidenced by the presence of a passenger compartment to accommodate emergency medical personnel, one or more patients on litters or cots, and equipment and supplies for emergency care at a location or during transport.
+B-pillar means the forwardmost pillar on each side of the vehicle that is, in whole or in part, rearward of a transverse vertical plane passing through the seating reference point of the driver's seat, unless:
+(1) There is only one pillar rearward of that plane and it is also a rearmost pillar; or
+(2) There is a door frame rearward of the A-pillar and forward of any other pillar or rearmost
+pillar.
+Brace means a fixed diagonal structural member in an open body vehicle that is used to brace the roll-bar and that connects the roll-bar to the main body of the vehicle structure.
+Convertible means a vehicle whose A-pillars are not joined with the B-pillars (or rearmost pillars) by a fixed, rigid structural member.
+Convertible roof frame means the frame of a convertible roof.
+Convertible roof linkage mechanism means any anchorage, fastener, or device necessary to deploy
+a convertible roof frame.
+Daylight opening means, for openings on the side of the vehicle, other than a door opening, the locus of all points where a horizontal line, perpendicular to the vehicle longitudinal centerline, is tangent to the periphery of the opening. For openings on the front and rear of the vehicle, other than a door opening, daylight opening means the locus of all points where a horizontal line, parallel to the vehicle longitudinal centerline, is tangent to the periphery of the opening. If the horizontal line is tangent to the periphery at more than one point at any location, the most inboard point is used to determine the daylight opening.
+Door frame means the rearmost perimeter structure, including trim but excluding glass, of the forward door and the forwardmost perimeter structure, including trim but excluding glass, of the rear door of a pair of adjacent side doors that:
+(1) (2) (3)
+TITLE:
+Have opposing hinges;
+Latch together without engaging or contacting an intervening pillar;
+Are forward of any pillar other than the A-pillar on the same side of the vehicle; and
+Occupant Protection in FMVSS 201 Interior Impact Jan/2012 PAGE: 2
+Licenced to: ATIEVA. Internal Use Only.
+Generated on 2015-06-24 13:40:51 by richardcolley@atieva.com
+
+COUNTRY :U.S.A. © InterRegs Ltd 2012 ORIGINAL :F.R. Vol. 36 No. 232 - 02.12.1971
+(4) Are rearward of the A-pillar.
+Door opening means, for door openings on the side of the vehicle, the locus of all points where a horizontal line, perpendicular to the vehicle longitudinal centerline, is tangent to the periphery of the side door opening. For door openings on the back end of the vehicle, door opening means the locus of all points where a horizontal line, parallel to the vehicle longitudinal centerline, is tangent to the periphery of the back door opening. If the horizontal line is tangent to the periphery at more than one point at any location, the most inboard point is the door opening.
+Dynamically deployed upper interior head protection system means a protective device or devices which are integrated into a vehicle and which, when activated by an impact, provide, through means requiring no action from occupants, protection against head impacts with upper interior structures and components of the vehicle in crashes.
+Forehead impact zone means the part of the free motion headform surface area that is determined in accordance with the procedure set forth in S8.10.
+Free motion headform means a test device which conforms to the specifications of Part 572, Subpart L of this chapter.
+Interior rear quarter panel means a vehicle interior component located between the rear edge of the side door frame, the front edge of the rearmost seat back, and the daylight opening.
+Mid-sagittal plane of a dummy means a longitudinal vertical plane passing through the seating reference point of a designated seating position.
+Other door frame means the rearmost perimeter structure, including trim but excluding glass, of the forward door and the forwardmost perimeter structure, including trim but excluding glass, of the rear door of a pair of adjacent side doors that:
+(1) Have opposing hinges;
+(2) Latch together without engaging or contacting an intervening pillar; and
+(3) Are rearward of the B-pillar.
+Other pillar means any pillar which is not an A-pillar , a B-pillar, or a rearmost pillar.
+Pillar means any structure, excluding glazing and the vertical portion of door window frames, but including accompanying moldings, attached components such as safety belt anchorages and coat hooks, which:
+(1) supports either a roof or any other structure (such as a roll-bar) that is above the driver's head, or
+(2) is located along the side edge of a window.
+Roll-bar means a fixed overhead structural member, including its vertical support structure, that extends from the left to the right side of the passenger compartment of any open body vehicles and convertibles. It does not include a header.
+TITLE: Occupant Protection in FMVSS 201 Interior Impact Jan/2012 PAGE: 3
+Licenced to: ATIEVA. Internal Use Only.
+Generated on 2015-06-24 13:40:51 by richardcolley@atieva.com
+
+COUNTRY :U.S.A. © InterRegs Ltd 2012 ORIGINAL :F.R. Vol. 36 No. 232 - 02.12.1971
+Seat belt anchorage means any component involved in transferring seat belt loads to the vehicle structure, including, but not limited to, the attachment hardware, but excluding webbing or straps, seat frames, seat pedestals, and the vehicle structure itself, whose failure causes separation of the belt from the vehicle structure.
+Seat belt mounting structure means:
+(a) A vehicle body or frame component, including trim, that incorporates an upper seat belt anchorage conforming to the requirements of S4.2.1. and S4.3.2 of 49 CFR 571.210, that is located rearward of the rearmost outboard designated seating position, and that extends above a horizontal plane 660 mm above the seating reference point (SgRP) of that seating position; and
+(b) A vehicle body or frame component, including trim, that incorporates an upper seat belt anchorage conforming to the requirements of S4.2.1. and S4.3.2 of 49 CFR 571.210, that is located forward of the rearmost outboard designated seating position, and that extends above a horizontal plane 460 mm above the SgRP of that seating position located rearward of the anchorage.
+(c) The seat belt mounting structure is not a pillar, roll bar, brace or stiffener, side rail, seat, interior rear quarter panel, or part of the roof.
+Sliding door track means a track structure along the upper edge of a side door opening that secures the door in the closed position and guides the door when moving to and from the open position.
+Stiffener means a fixed overhead structural member that connects one roll-bar to another roll-bar or to a header of any open body vehicle or convertible.
+Upper roof means the area of the vehicle interior that is determined in accordance with the procedure set forth in S8.15.
+Windshield trim means molding of any material between the windshield glazing and the exterior roof surface, including material that covers a part of either the windshield glazing or exterior roof surface.
+S4. S4.1 (a) (b) S4.2
+of S5 and S6. S5.
+and armrests.
+Requirements
+Except as provided in S4.2, each vehicle shall comply with either:
+The requirements specified in S5, or,
+The requirements specified in S5 and S6.
+Vehicles manufactured on or after September 1, 1998 shall comply with the requirements
+Requirements for instrument panels, seat backs, interior compartment doors, sun visors
+Each vehicle shall comply with the requirements specified in S5.1 through S5.5.2.
+Instrument panels. Except as provided in S5.1.1., when that area of the instrument panel
+S5.1
+that is within the head impact area is impacted in accordance with S5.1.2 by a 6.8 kilogram, 165 mm diameter head form at−
+(a) A relative velocity of 24 kilometers per hour for all vehicles except those specified in paragraph (b) of this section,
+TITLE: Occupant Protection in FMVSS 201 Interior Impact Jan/2012 PAGE: 4
+Licenced to: ATIEVA. Internal Use Only.
+Generated on 2015-06-24 13:40:51 by richardcolley@atieva.com
+
+COUNTRY :U.S.A. © InterRegs Ltd 2012 ORIGINAL :F.R. Vol. 36 No. 232 - 02.12.1971
+(b)
+protection requirements of S5.1 of 49 CFR 571.208 by means of inflatable restraint systems and meet the requirements of S4.1.5.1 (a)(3) by means of a Type 2 seat belt assembly at the right front designated seating position, the deceleration of the head form shall not exceed 80g continuously for more than 3 milliseconds.
+S5.1.1 The requirements of S5.1 do not apply to−
+(a) Console assemblies;
+(b) Areas less than 125 mm inboard from the juncture of the instrument panel attachment to
+the body side inner structure;
+(c) Areas closer to the windshield juncture than those statically contactable by the head form with the windshield in place;
+(d) Areas outboard of any point of tangency on the instrument panel of a 165 mm diameter head form tangent to and inboard of a vertical longitudinal plane tangent to the inboard edge of the steering wheel; or
+(e) Areas below any point at which a vertical line is tangent to the rearmost surface of the panel.
+S5.1.2 Demonstration procedures. Tests shall be performed as described in SAE Recommended Practice J921 (1965) (incorporated by reference, see § 571.5), using the specified instrumentation or instrumentation that meets the performance requirements specified in SAE Recommended Practice J977 (1966) (incorporated by reference, see § 571.5), except that:
+(a) The origin of the line tangent to the instrument panel surface shall be a point on a transverse horizontal line through a point 125 mm horizontally forward of the seating reference point of the front outboard passenger designated seating position, displaced vertically an amount equal to the rise which results from a 125 mm forward adjustment of the seat or 19 mm; and
+(b) Direction of impact shall be either:
+(1) In a vertical plane parallel to the vehicle longitudinal axis; or
+(2) In a plane normal to the surface at the point of contact.
+S5.2 Seat Backs. Except as provided in S5.2.1, when that area of the seat back that is within the head impact area is impacted in accordance with S5.2.2 by a 6.8 kilogram, 165 mm diameter head form at a relative velocity of 24 kilometers per hour, the deceleration of the head form shall not exceed 80g continuously for more than 3 milliseconds.
+S5.2.1 The requirements of S5.2 do not apply to seats installed in school buses which comply with the requirements of Standard No. 222, School Bus Passenger Seating and Occupant Protection (49 CFR 571.222) or to rearmost side-facing, back-to-back, folding auxiliary jump, and temporary seats.
+TITLE: Occupant Protection in FMVSS 201 Interior Impact Jan/2012 PAGE: 5
+Licenced to: ATIEVA. Internal Use Only.
+Generated on 2015-06-24 13:40:51 by richardcolley@atieva.com
+A relative velocity of 19 kilometers per hour for vehicles that meet the occupant crash
+
+COUNTRY :U.S.A. © InterRegs Ltd 2012 ORIGINAL :F.R. Vol. 36 No. 232 - 02.12.1971
+S5.2.2
+(a) The origin of the line tangent to the uppermost seat back frame component shall be a point on a transverse horizontal line through the seating reference point of the right rear designated seating position, with adjustable forward seats in their rearmost design driving position and reclinable forward seat backs in their nominal design driving position;
+(b) The direction of impact shall be either:
+(1) In a vertical plane parallel to the vehicle longitudinal axis; or
+(2) In a plane normal to the surface at the point of contact;
+(c) For seats without head restraints installed, tests shall be performed for each individual split or bucket seat back at points within 100 mm left and right of its centerline, and for each bench seat back between points 100 mm outboard of the centerline of each outboard designated seating position;
+(d) For seats having head restraints installed, each test shall be conducted with the head restraint in place at its lowest adjusted position, at a point on the head restraint centerline; and
+(e) For a seat that is installed in more than one body style, test conducted at the fore and aft extremes identified by application of subparagraph (a) shall be deemed to have demonstrated all intermediate conditions.
+S5.3 Interior compartment doors. Each interior compartment door assembly located in an instrument panel, console assembly, seat back, or side panel adjacent to a designated seating position shall remain closed when tested in accordance with either S5.3.1(a) and S5.3.1(b) or S5.3.1(a) and S5.3.1(c). Additionally, any interior compartment door located in an instrument panel or seat back shall remain closed when the instrument panel or seat back is tested in accordance with S5.1 and S5.2. All interior compartment door assemblies with a locking device must be tested with the locking device in an unlocked position.
+S5.3.1 Demonstration procedures. (a) Subject the interior compartment door latch system to an inertia load of 10g in a horizontal transverse direction and an inertia load of 10g in a vertical direction in accordance with the procedure described in section 5 of SAE Recommended Practice J839b (1965) (incorporated by reference, see § 571.5), or an approved equivalent.
+(b) Impact the vehicle perpendicularly into a fixed collision barrier at a forward longitudinal velocity of 48 kilometers per hour.
+(c) Subject the interior compartment door latch system to a horizontal inertia load of 30g in a longitudinal direction in accordance with the procedure described in section 5 of SAE Recommended Practice J839b (1965) (incorporated by reference, see § 571.5), or an approved equivalent.
+S5.4 Sun visors.
+S5.4.1 A sun visor that is constructed of or covered with energy-absorbing material shall be
+provided for each front outboard designated seating position.
+TITLE: Occupant Protection in FMVSS 201 Interior Impact Jan/2012 PAGE: 6
+Licenced to: ATIEVA. Internal Use Only.
+Generated on 2015-06-24 13:40:51 by richardcolley@atieva.com
+Demonstration procedures. Tests shall be performed as described in SAE Recommended Practice J921 (1965) (incorporated by reference, see § 571.5), using the specified instrumentation or instrumentation that meets the performance requirements specified in SAE Recommended Practice J977 (1966) (incorporated by reference, see § 571.5), except that:
+
+COUNTRY :U.S.A. © InterRegs Ltd 2012 ORIGINAL :F.R. Vol. 36 No. 232 - 02.12.1971
+S5.4.2
+that is statically contactable by a spherical 165 mm diameter head form.
+Each sun visor mounting shall present no rigid material edge radius of less than 3.2 mm
+S5.5 Armrests.
+S5.5.1 General. Each installed armrest shall conform to at least one of the following:
+(a) It shall be constructed with energy-absorbing material and shall deflect or collapse laterally at least 50 mm without permitting contact with any underlying rigid material.
+(b) It shall be constructed with energy-absorbing material that deflects or collapses to within 32 mm of a rigid test panel surface without permitting contact with any rigid material. Any rigid material between 13 and 32 mm from the panel surface shall have a minimum vertical height of not less than 25 mm.
+(c) Along not less than 50 continuous mm of its length, the armrest shall, when measured vertically in side elevation, provide at least 50 mm of coverage within the pelvic impact area.
+S5.5.2 Folding armrests. Each armrest that folds into the seat back or between two seat backs shall either:
+(a) Meet the requirement of S5.5.1; or
+(b) Be constructed of or covered with energy-absorbing material.
+S6. Requirements for upper interior components.
+S6.1. Vehicles manufactured on or after September 1, 1998 and before September 1, 2002. Except as provided in S6.3 and S6.1.4, for vehicles manufactured on or after September 1, 1998 and before September 1, 2002, a percentage of the manufacturer's production, as specified in S.6.1.1, S6.1.2 or S6.1.3, shall conform, at the manufacturer's option, to either S6.1(a) or S6.1(b). For vehicles manufactured by final stage manufacturers on or after September 1, 1998 and before September 1, 2006, a percentage of the manufacturer's production as specified in S6.1.4 shall, except as provided in S6.3, conform, to either S6.1(a) or S6.1(b). The manufacturer shall select the option by the time it certifies the vehicle and may not thereafter select a different option for the vehicle. The manufacturer shall select the option by the time it certifies the vehicle and may not thereafter select a different option for the vehicle.
+(a) When tested under the conditions of S8, comply with the requirements specified in S7 at the target locations specified in S10 when impacted by the free motion headform specified in S8.9 at any speed up to and including 24 km/h (15 mph). The requirements do not apply to any target that cannot be located using the procedures of S10.
+(b) When equipped with a dynamically deployed upper interior head protection system and tested under the conditions of S8, comply with the requirements specified in S7 at the target locations specified in S10 as follows:
+(1) Targets that are not located over any point inside the area measured along the contour of the vehicle surface within 50 mm (2.0 inch) of the periphery of the stowed system projected perpendicularly onto the vehicle interior surface, including mounting and inflation components but exclusive of any cover or covers, shall be impacted by the free motion headform specified in S8.9 at any speed up to and including 24 km/h (15 mph). The requirements do not apply to any targets that can not be located by using the procedures of S10.
+TITLE: Occupant Protection in FMVSS 201 Interior Impact Jan/2012 PAGE: 7
+Licenced to: ATIEVA. Internal Use Only.
+Generated on 2015-06-24 13:40:51 by richardcolley@atieva.com
+
+COUNTRY :U.S.A. © InterRegs Ltd 2012 ORIGINAL :F.R. Vol. 36 No. 232 - 02.12.1971
+(2)
+interior within 50 mm (2.0 inch) of the periphery of the stowed system projected perpendicularly onto the vehicle interior surface, including mounting and inflation components but exclusive of any cover or covers, when the dynamically deployed upper interior head protection system is not deployed, shall be impacted by the free motion headform specified in S8.9 at any speed up to an including 19 km/h (12 mph) with the system undeployed. The requirements do not apply to any target that can not be located using the procedures of S10.
+(3) Each vehicle shall, when equipped with a dummy test device specified in part 572, subpart M, and tested as specified in S8.16 through S8.28, comply with the requirements specified in S7 when crashed into a fixed, rigid pole of 254 mm in diameter, at any velocity between 24 kilometers per hour (15 mph) and 29 kilometers per hour (18 mph).
+S6.1.1. Phase-in Schedule #1
+S6.1.1.1 Vehicles manufactured on or after September 1, 1998 and before September 1, 1999. Subject to S6.1.5(a), for vehicles manufactured by a manufacturer on or after September 1, 1998 and before September 1, 1999, the amount of vehicles complying with S7 shall be not less than 10 percent of:
+(a) The manufacturer's average annual production of vehicles manufactured on or after September 1, 1996 and before September 1, 1999, or
+(b) The manufacturer's production on or after September 1, 1998 and before September 1, 1999.
+S6.1.1.2. Vehicles manufactured on or after September 1, 1999 and before September 1, 2000. Subject to S6.1.5(b), for vehicles manufactured by a manufacturer on or after September 1, 1999 and before September 1, 2000, the amount of vehicles complying with S7 shall be not less than 25 percent of:
+(a) The manufacturer's average annual production of vehicles manufactured on or after September 1, 1997 and before September 1, 2000, or
+(b) The manufacturer's production on or after September 1, 1999 and before September 1, 2000.
+S6.1.1.3. Vehicles manufactured on or after September 1, 2000 and before September 1, 2001. Subject to S6.1.5(c), for vehicles manufactured by a manufacturer on or after September 1, 2000 and before September 1, 2001, the amount of vehicles complying with S7 shall be not less than 40 percent of:
+(a) The manufacturer's average annual production of vehicles manufactured on or after September 1, 1998 and before September 1, 2001, or
+(b) The manufacturer's production on or after September 1, 2000 and before September 1, 2001.
+TITLE: Occupant Protection in FMVSS 201 Interior Impact Jan/2012 PAGE: 8
+Licenced to: ATIEVA. Internal Use Only.
+Generated on 2015-06-24 13:40:51 by richardcolley@atieva.com
+Targets that are over any point inside the area measured along the contour of the vehicle
+
+COUNTRY :U.S.A. © InterRegs Ltd 2012 ORIGINAL :F.R. Vol. 36 No. 232 - 02.12.1971
+S6.1.1.4. Vehicles manufactured on or after September 1, 2001 and before September 1, 2002. Subject to S6.1.5(d), for vehicles manufactured by a manufacturer on or after September 1, 2001 and before September 1, 2002, the amount of vehicles complying with S7 shall be not less than 70 percent of:
+(a) The manufacturer's average annual production of vehicles manufactured on or after September 1, 1999 and before September 1, 2002, or
+(b) The manufacturer's production on or after September 1, 2001 and before September 1, 2002.
+S6.1.2. Phase-in Schedule #2
+S6.1.2.1. Vehicles manufactured on or after September 1, 1998 and before September 1, 1999. Subject to S6.1.5(a), for vehicles manufactured by a manufacture on or after September 1, 1998 and before September 1, 1999, the amount of vehicles complying with S7 shall be not less than seven percent of:
+(a) The manufacturer's average annual production of vehicles manufactured on or after September 1, 1996 and before September 1, 1999, or
+(b) The manufacturer's production on or after September 1, 1998 and before September 1, 1999.
+S6.1.2.2. Vehicles manufactured on or after September 1, 1999 and before September 1, 2000. Subject to S6.1.5(b), for vehicles manufactured by a manufacturer on or after September 1, 1999 and before September 1, 2000, the amount of vehicles complying with S7 shall be not less than 31 percent of:
+(a) The manufacturer's average annual production of vehicles manufactured on or after September 1, 1997 and before September 1, 2000, or
+(b) The manufacturer's production on or after September 1, 1999 and before September 1, 2000.
+S6.1.2.3. Vehicles manufactured on or after September 1, 2000 and before September 1, 2001. Subject to S6.1.5(c) for vehicles manufactured by a manufacturer on or after September 1, 2000 and before September 1, 2001, the amount of vehicles complying with S7 shall be not less than 40 percent of:
+(a) The manufacturer's average annual production of vehicles manufactured on or after September 1, 1998 and before September 1, 2001, or
+(b) The manufacturer's production on or after September 1, 2000 and before September 1, 2001.
+TITLE: Occupant Protection in FMVSS 201 Interior Impact Jan/2012 PAGE: 9
+Licenced to: ATIEVA. Internal Use Only.
+Generated on 2015-06-24 13:40:51 by richardcolley@atieva.com
+
+COUNTRY :U.S.A. © InterRegs Ltd 2012 ORIGINAL :F.R. Vol. 36 No. 232 - 02.12.1971
+S6.1.2.4. Vehicles manufactured on or after September 1, 2001 and before September 1, 2002. Subject to S6.1.5(d), for vehicles manufactured by a manufacturer on or after September 1, 2001 and before September 1, 2002, the amount of vehicles complying with S7 shall be not less than 70 percent of:
+(a) The manufacturer's average annual production of vehicles manufactured on or after September 1, 1999 and before September 1, 2002, or
+(b) The manufacturer's production on or after September 1, 2001 and before September 1, 2002.
+S6.1.3 Phase-in Schedule #3
+S6.1.3.1. Vehicles manufactured on or after September 1, 1998 and before September 1, 1999 are
+not required to comply with the requirements specified in S7.
+S6.1.3.2. Vehicles manufactured on or after September 1, 1999 shall comply with the requirements specified in S7.
+S6.1.4. Phase-in Schedule #4 A final stage manufacturer or alterer may, at its option, comply with the requirements set forth in S6.1.4.1 and S6.1.4.2.
+S6.1.4.1. Vehicles manufactured on or after September 1, 1998 and before September 1, 2009 are not required to comply with the requirements specified in S7.
+S6.1.4.2. Vehicles manufactured on or after September 1, 2009 shall comply with the requirements specified in S7.
+S6.1.5. Calculation of complying vehicles.
+(a) For the purposes of complying with S6.1.1.1 or S6.1.2.1, a manufacturer may count a
+vehicle if it is manufactured on or after May 8, 1997, but before September 1, 1999.
+(b) For the purposes of complying with S6.1.1.2 or S6.1.2.2, a manufacturer may count a vehicle if it:
+(1) Is manufactured on or after May 8, 1997, but before September 1, 2000, and
+(2) Is not counted toward compliance with S6.1.1.1 or S6.1.2.1, as appropriate.
+(c) For the purpose of complying with S6.1.1.3 or S6.1.2.3, a manufacturer may count a vehicle if it:
+(1) Is manufactured on or after May 8, 1997, but before September 1, 2001, and
+(2) Is not counted toward compliance with S6.1.1.1, S6.1.1.2, S6.1.2.1, or S6.1.2.2, as
+appropriate.
+(d) For the purpose of complying with S6.1.1.4 or S6.1.2.4, a manufacturer may count a vehicle if it:
+(1) Is manufactured on or after May 8, 1997, but before September 1, 2002, and
+TITLE: Occupant Protection in
+Interior Impact Jan/2012
+Licenced to: ATIEVA. Internal Use Only.
+Generated on 2015-06-24 13:40:51 by richardcolley@atieva.com
+FMVSS 201 PAGE: 10
+
+COUNTRY :U.S.A. © InterRegs Ltd 2012 ORIGINAL :F.R. Vol. 36 No. 232 - 02.12.1971
+(2)
+S6.1.2.3, as appropriate.
+Is not counted toward compliance with S6.1.1.1, S6.1.1.2, S6.1.1.3, S6.1.2.1, S6.1.2.2, or
+S6.1.6. Vehicles produced by more than one manufacturer.
+S6.1.6.1 For the purpose of calculating average annual production of vehicles for each manufacturer and the number of vehicles manufactured by each manufacturer under S6.1.1 through S6.1.4, a vehicle produced by more than one manufacturer shall be attributed to a single manufacturer as follows, subject to S6.1.6.2.
+(a) A vehicle which is imported shall be attributed to the importer.
+(b) A vehicle manufactured in the United States by more than one manufacturer, one of which
+also markets the vehicle, shall be attributed to the manufacturer which markets the vehicle.
+S6.1.6.2. A vehicle produced by more than one manufacturer must be attributed to any one of the vehicle's manufacturers specified by an express written contract, reported to the National Highway Traffic Safety Administration under 49 CFR part 585, between the manufacturer so specified and the manufacturer to which the vehicle would otherwise be attributed under S6.1.6.1.
+S6.2 Vehicles manufactured on or after September 1, 2002 and vehicles built in two or more stages manufactured after September 1, 2006. Except as provided in S6.1.4 and S6.3, vehicles manufactured on or after September 1, 2002 shall, when tested under the conditions of S8, conform, at the manufacturer's option, to either S6.2(a) or S6.2(b). Vehicles manufactured by final stage manufacturers on or after September 1, 2006 shall, except as provided in S6.3, when tested under the conditions of S8, conform, at the manufacturer's option, to either S6.2(a) or S6.2(b). The manufacturer shall select the option by the time it certifies the vehicle and may not thereafter select a different option for the vehicle.
+(a) When tested under the conditions of S8, comply with the requirements specified in S7 at the target locations specified in S10 when impacted by the free motion headform specified in S8.9 at any speed up to and including 24 km/h (15 mph). The requirements do not apply to any target that cannot be located using the procedures of S10.
+(b) When equipped with a dynamically deployed upper interior head protection system and tested under the conditions of S8, comply with the requirements specified in S7 at the target locations specified in S10 as follows:
+(1) Targets that are not located over any point inside the area measured along the contour of the vehicle surface within 50 mm (2.0 inch) of the periphery of the stowed system projected perpendicularly onto the vehicle interior surface, including mounting and inflation components but exclusive of any cover or covers, shall be impacted by the free motion headform specified in S8.9 at any speed up to and including 24 km/h (15 mph). The requirements do not apply to any targets that cannot be located by using the procedures of S10.
+(2) Targets that are over any point inside the area measured along the contour of the vehicle interior within 50 mm (2.0 inch) of the periphery of the stowed system projected perpendicularly onto the vehicle interior surface, including mounting and inflation components but exclusive of any cover or covers, when the dynamically deployed upper interior head protection system is not deployed, shall be impacted by the free motion headform specified in S8.9 at any speed up to and including 19 km/h (12 mph) with the system undeployed. The requirements do not apply to any target that cannot be located using the procedures of S10.
+TITLE: Occupant Protection in FMVSS 201 Interior Impact Jan/2012 PAGE: 11
+Licenced to: ATIEVA. Internal Use Only.
+Generated on 2015-06-24 13:40:51 by richardcolley@atieva.com
+
+COUNTRY :U.S.A. © InterRegs Ltd 2012 ORIGINAL :F.R. Vol. 36 No. 232 - 02.12.1971
+(3)
+device specified in 49 CFR part 572, subpart M, and tested as specified in S8.16 through S8.28, comply with the requirements specified in S7 when crashed into a fixed, rigid pole of 254 mm in diameter, at any velocity between 24 kilometers per hour (15 mph) and 29 kilometers per hour (18 mph).
+(4) Vehicles certified as complying with the vehicle-to-pole requirements of S9 of 49 CFR 571.214, Side Impact Protection, need not comply with the pole test requirements specified in S6.2(b)(3) of this section.
+S6.3. A vehicle need not meet the requirements of S6.1 through S6.2 for:
+(a) Any target located on a convertible roof frame or a convertible roof linkage mechanism.
+(b) Any target located rearward of a vertical plane 600 mm behind the seating reference point
+of the rearmost designated seating position. For altered vehicles and vehicles built in two or more stages, including ambulances and motor homes, any target located rearward of a vertical plane 300 mm behind the seating reference point of the driver's designated seating position (tests for altered vehicles and vehicles built in two or more stages do not include, within the time period for measuring HIC(d), any free motion headform contact with components rearward of this plane). If an altered vehicle or vehicle built in two or more stages is equipped with a transverse vertical partition positioned between the seating reference point of the driver's designated seating position and a vertical plane 300 mm behind the seating reference point of the driver's designated seating position, any target located rearward of the vertical partition is excluded.
+(c) Any target in a vehicle manufactured in two or more stages that is delivered to a final stage manufacturer without an occupant compartment. Note: Motor homes, ambulances, and other vehicles manufactured using a chassis cab, a cut-away van, or any other incomplete vehicle delivered to a final stage manufacturer with a furnished front compartment are not excluded under this S6.3(c).
+(d) Any target in a walk-in van-type vehicles.
+(e) Any target located on the seat belt mounting structures, door frames and other door
+frames before December 1, 2005.
+S7. Performance Criterion. The HIC(d) shall not exceed 1000 when calculated in accordance with the following formula:
+HIC=⎡ 1 ∫t2adt⎤2.5(t−t) ⎢⎣t2−t1t1 ⎥⎦ 2 1
+Where the term a is the resultant acceleration expressed as a multiple of g (the acceleration of gravity), and t1 and t2 are any two points in time during the impact which are separated by not more than a 36 millisecond time interval.
+Except as provided in S6.2(b)(4), each vehicle shall, when equipped with a dummy test
+ (a) (b)
+TITLE:
+For the free motion headform; HIC (d) = 0.75446 (free motion headform HIC) + 166.4. For the part 572, subpart M, anthropomorphic test dummy; HIC (d) = HIC.
+Occupant Protection in FMVSS 201 Interior Impact Jan/2012 PAGE: 12
+Licenced to: ATIEVA. Internal Use Only.
+Generated on 2015-06-24 13:40:51 by richardcolley@atieva.com
+
+COUNTRY :U.S.A. © InterRegs Ltd 2012 ORIGINAL :F.R. Vol. 36 No. 232 - 02.12.1971
+(a) The vehicle is supported off its suspension at an attitude determined in accordance with S8.1(b).
+(b) Directly above each wheel opening, determine the vertical distance between a level surface and a standard reference point on the test vehicle's body under the conditions of S8.1(b)(1) through S8.1(b)(3).
+(1) The vehicle is loaded to its unloaded vehicle weight, plus its rated cargo and luggage capacity or 136 kg, whichever is less, secured in the luggage area. The load placed in the cargo area is centered over the longitudinal centerline of the vehicle.
+(2) The vehicle is filled to 100 percent of all fluid capacities.
+(3) All tires are inflated to the manufacturer's specifications listed on the vehicle's tire placard.
+S8.2. Windows and Sunroofs.
+(a) Movable vehicle windows are placed in the fully open position.
+(b) For testing, any window on the opposite side of the longitudinal centerline of the vehicle
+from the target to be impacted may be removed.
+(c) For testing, movable sunroofs are placed in the fully open position.
+S8.3. Convertible tops. The top, if any, of convertibles and open-body type vehicles is in the closed passenger compartment configuration.
+S8.4. Doors.
+(a) Except as provided in S8.4(b) or S8.4(c), doors, including any rear hatchback or tailgate,
+are fully closed and latched but not locked.
+(b) During testing, any side door on the opposite side of the longitudinal centerline of the vehicle from the target to be impacted may be open or removed.
+(c) During testing, any rear hatchback or tailgate may be open or removed for testing any target except targets on the rear header, rearmost pillars, or the rearmost other side rail on either side of the vehicle.
+S8.5. Sun visors. Each sun visor shall be placed in any position where one side of the visor is in contact with the vehicle interior surface (windshield, side rail, front header, roof, etc.).
+S8.6. Steering wheel and seats.
+(a) During targeting, the steering wheel and seats may be placed in any position intended for
+use while the vehicle is in motion.
+(b) During testing, the steering wheel and seats may be removed from the vehicle.
+TITLE: Occupant Protection in FMVSS 201 Interior Impact Jan/2012 PAGE: 13
+Licenced to: ATIEVA. Internal Use Only.
+Generated on 2015-06-24 13:40:51 by richardcolley@atieva.com
+Target location and test conditions. The vehicle shall be tested and the targets specified S8.1. Vehicle test attitude.
+S8.
+in S10 located under the following conditions.
+
+COUNTRY :U.S.A. © InterRegs Ltd 2012 ORIGINAL :F.R. Vol. 36 No. 232 - 02.12.1971
+S8.7.
+anchorage is adjustable, tests are conducted with the anchorage adjusted to a point midway between the two extreme adjustment positions. If the anchorage has distinct adjustment positions, none of which is midway between the two extreme positions, tests are conducted with the anchorage adjusted to the nearest position above the midpoint of the two extreme positions.
+S8.8. Temperature and humidity.
+(a) The ambient temperature is between 19 degrees C. and 26 degrees C., at any relative
+humidity between 10 percent and 70 percent.
+(b) Tests are not conducted unless the headform specified in S8.9 is exposed to the conditions specified in S8.8(a) for a period not less than four hours.
+S8.9. Headform. The headform used for testing conforms to the specifications of part 572, Subpart L of this chapter.
+S8.10. Forehead impact zone. The forehead impact zone of the headform is determined according to the procedure specified in (a) through (f).
+(a) Position the headform so that the baseplate of the skull is horizontal. The midsagittal plane of the headform is designated as Plane S.
+(b) From the center of the threaded hole on top of the headform, draw a 69 mm line forward toward the forehead, coincident with Plane S, along the contour of the outer skin of the headform. The front end of the line is designated as Point P. From Point P, draw a 100 mm line forward toward the forehead, coincident with Plane S, along the contour of the outer skin of the headform. The front end of the line is designated as Point O.
+(c) Draw a 125 mm line which is coincident with a horizontal plane along the contour of the outer skin of the forehead from left to right through Point O so that the line is bisected at Point O. The end of the line on the left side of the headform is designated as Point a and the end on the right as Point b.
+(d) Draw another 125 mm line which is coincident with a vertical plane along the contour of the outer skin of the forehead through Point P so that the line is bisected at Point P. The end of the line on the left side of the headform is designated as Point c and the end on the right as Point d.
+(e) Draw a line from Point a to Point c along the contour of the outer skin of the headform using a flexible steel tape. Using the same method, draw a line from Point b to Point d.
+(f) The forehead impact zone is the surface area on the FMH forehead bounded by lines a-O-b and c-P-d, and a-c and b-d.
+S8.11. Target circle. The area of the vehicle to be impacted by the headform is marked with a solid circle 12.7 mm in diameter, centered on the targets specified in S10, using any transferable opaque coloring medium.
+TITLE: Occupant Protection in FMVSS 201 Interior Impact Jan/2012 PAGE: 14
+Licenced to: ATIEVA. Internal Use Only.
+Generated on 2015-06-24 13:40:51 by richardcolley@atieva.com
+Seat belt anchorages. If a target is on a seat belt anchorage, and if the seat belt
+
+COUNTRY :U.S.A. © InterRegs Ltd 2012 ORIGINAL :F.R. Vol. 36 No. 232 - 02.12.1971
+S8.12. Location of head center of gravity.
+Location of head center of gravity for front outboard designated seating positions (CG−F).
+(a)
+For determination of head center of gravity, all directions are in reference to the seat orientation.
+(1) Location of rearmost CG−F (CG−F2). For front outboard designated seating positions, the head center of gravity with the seat in its rearmost normal design driving or riding position (CG−F2) is located 160 mm rearward and 660 mm upward from the seating reference point.
+(2) Location of forwardmost CG−F (CG−F1). For front outboard designated seating positions, the head center of gravity with the seat in its forwardmost adjustment position (CG−F1) is located horizontally forward of CG−F2 by the distance equal to the fore-aft distance of the seat track.
+(b) Location of head center of gravity for rear outboard designated seating positions (CG−R). For rear outboard designated seating positions, the head center of gravity (CG−R) is located 160 mm rearward, relative to the seat orientation and 660 mm upward from the seating reference point.
+S8.13. Impact configuration.
+S8.13.1. The headform is launched from any location inside the vehicle which meets the conditions of S8.13.4. At the time of launch, the midsagittal plane of the headform is vertical and the headform is upright.
+S8.13.2. The headform travels freely through the air, along a velocity vector that is perpendicular to the headform's skull cap plate, not less than 25 mm before making any contact with the vehicle.
+S8.13.3. At the time of initial contact between the headform and the vehicle interior surface, some portion of the forehead impact zone of the headform must contact some portion of the target circle.
+S8.13.4. Approach Angles. The headform launching angle is as specified in Table 1. For components for which Table 1 specifies a range of angles, the headform launching angle is within the limits determined using the procedures specified in S8.13.4.1 and S8.13.4.2, and within the range specified in Table I, using the orthogonal reference system specified in S9.
+TITLE: Occupant Protection in FMVSS 201 Interior Impact Jan/2012 PAGE: 15
+Licenced to: ATIEVA. Internal Use Only.
+Generated on 2015-06-24 13:40:51 by richardcolley@atieva.com
+
+COUNTRY :U.S.A.
+ORIGINAL :F.R. Vol. 36 No. 232 - 02.12.1971
+Table 1
+Approach Angle Limits (in Degrees)
+Target Component Horizontal angle
+© InterRegs Ltd 2012
+Vertical angle
+     Front Header ................................................. Rear Header.................................................. Left Side Rail................................................. Right Side Rail .............................................. Left Sliding Door Track ................................ Right Sliding Door Track .............................. Left A-pillar .................................................... Right A-pillar.................................................. Left B-pillar .................................................... Right B-pillar.................................................. Left Door Frame............................................ Right Door Frame.......................................... Other Left Pillars ........................................... Other Right Pillars......................................... Other Left Door Frame.................................. Other Right Door Frame ............................... Left Rearmost Pillar ...................................... Right Rearmost Pillar .................................... Upper Roof.................................................... Overhead Rollbar .......................................... Brace or Stiffener .......................................... Left Seat Belt Mounting Structure................. Right Seat Belt Mounting Structure............... Seat Belt Anchorages ...................................
+   180 ......................................................... 0 or 360 .................................................. 270 ......................................................... 90 ........................................................... 270 ........................................................ 90 .......................................................... 195-255 .................................................. 105-165 .................................................. 195-345 .................................................. 15-165 .................................................... 195-345 .................................................. 15-165 .................................................... 270 ......................................................... 90 ........................................................... 270 ......................................................... 90 ........................................................... 270-345 .................................................. 15-90 ...................................................... Any ......................................................... 0 or 180 .................................................. 90 or 270 ................................................ 195−345 ................................................. 15−165 ................................................... Any .........................................................
+    0−50 0−50 0−50 0−50 0−50 0−50 -5−50 -5−50 -10−50 -10−50 -10−50 -10−50 -10−50 -10−50 -10−50 -10−50 -10−50 -10−50 0−50 0−50 0−50 -10−50 -10−50 0−50
+ S8.13.4.1 Horizontal Approach Angles for Headform Impacts.
+(a) Left A-pillar Horizontal Approach Angles.
+(1) Locate a line formed by the shortest horizontal distance between CG−F1 for the left seat and the right A-pillar. The maximum horizontal approach angle for the left A-pillar equals 360 degrees minus the angle formed by that line and the X-axis of the vehicle, measured counterclockwise.
+(2) Locate a line formed by the shortest horizontal distance between CG−F2 for the left seat and the left A-pillar. The minimum horizontal approach angle for the left A-pillar impact equals the angle formed by that line and the X-axis of the vehicle, measured counterclockwise.
+(b) Right A-pillar Horizontal Approach Angles.
+(1) Locate a line formed by the shortest horizontal distance between CG−F1 for the right seat and the left A-pillar. The minimum horizontal approach angle for the right A-pillar equals 360 degrees minus the angle formed by that line and the X-axis of the vehicle, measure counterclockwise.
+(2) Locate a line formed by the shortest horizontal distance between CG−F2 for the right seat and the right A-pillar. The maximum horizontal approach angle for the right A-pillar impact equals the angle formed by that line and the X-axis of the vehicle measured counterclockwise.
+TITLE: Occupant Protection in FMVSS 201 Interior Impact Jan/2012 PAGE: 16
+Licenced to: ATIEVA. Internal Use Only.
+Generated on 2015-06-24 13:40:51 by richardcolley@atieva.com
+
+:U.S.A. © InterRegs Ltd 2012 :F.R. Vol. 36 No. 232 - 02.12.1971
+Left B-pillar Horizontal Approach Angles.
+(2) Locate a line formed by the shortest horizontal distance between CG−R for the left seat and the left B-pillar. The minimum horizontal approach angle for the left B-pillar equals the angle formed by that line and the X-axis of the vehicle measured counterclockwise.
+(d) Right B-pillar Horizontal Approach Angles.
+(1) Locate a line formed by the shortest horizontal distance between CG−F2 for the right seat and the right B-pillar. The minimum horizontal approach angle for the right B-pillar equals the angle formed by that line and the X-axis of the vehicle measured counterclockwise, or 90 degrees, whichever is less.
+(2) Locate a line formed by the shortest horizontal distance between CG−R for the right seat and the right B-pillar. The maximum horizontal approach angle for the right B-pillar equals the angle between that line and the X-axis of the vehicle measured counterclockwise.
+(e) Left door frame horizontal approach angles.
+(1) Locate a line formed by the shortest horizontal distance between CG-F2 for the left seat and the left door frame. The maximum horizontal approach angle for the left door frame equals the angle formed by that line and the X-axis of the vehicle measured counterclockwise, or 270 degrees, whichever is greater.
+(2) Locate a line formed by the shortest horizontal distance between CG-R for the left seat and the left door frame. The minimum horizontal approach angle for the left door frame equals the angle formed by that line and the X-axis of the vehicle measured counterclockwise.
+(f) Right door frame horizontal approach angles.
+(1) Locate a line formed by the shortest horizontal distance between CG-F2 for the right seat and the right door frame. The minimum horizontal approach angle for the right door frame equals the angle formed by that line and the X-axis of the vehicle measured counterclockwise, or 90 degrees, whichever is less.
+(2) Locate a line formed by the shortest horizontal distance between CG-R for the right seat and the right door frame. The maximum horizontal approach angle for the right door frame equals the angle formed by that line and the X-axis of the vehicle measured counterclockwise
+(g) Left seat belt mounting structure horizontal approach angles.
+(1) Locate a line formed by the shortest horizontal distance between CG-F2 for the left seat and the left seat belt mounting structure. If the seat belt mounting structure is below a horizontal plane passing through CG-F2 for the left seat, locate the point 200 mm directly below CG-F2 and locate a line formed by the shortest horizontal distance between that point and the left seat belt mounting structure. The maximum horizontal approach angle for the left seat belt mounting structure equals the angle formed by that line and the X-axis of the vehicle measured counterclockwise, or 270 degrees, whichever is greater.
+TITLE: Occupant Protection in FMVSS 201 Interior Impact Jan/2012 PAGE: 17
+Licenced to: ATIEVA. Internal Use Only.
+Generated on 2015-06-24 13:40:51 by richardcolley@atieva.com
+COUNTRY ORIGINAL
+(c)
+(1)
+and the left B-pillar. The maximum horizontal approach angle for the left B-pillar equals the angle formed by that line and the X-axis of the vehicle measured counterclockwise, or 270 degrees, whichever is greater.
+Locate a line formed by the shortest horizontal distance between CG−F2 for the left seat
+
+COUNTRY :U.S.A. © InterRegs Ltd 2012 ORIGINAL :F.R. Vol. 36 No. 232 - 02.12.1971
+(2)
+the left seat belt mounting structure. If the seat belt mounting structure is below a horizontal plane passing through CG-R for the left seat, locate the point 200 mm directly below CG-R and locate a line formed by the shortest horizontal distance between that point and the left seat belt mounting structure. The minimum horizontal approach angle for the left seat belt mounting structure equals the angle formed by that line and the X-axis of the vehicle measured counterclockwise. If the CG-R does not exist, or is forward of the seat belt mounting structure, the maximum horizontal approach angle is 270 degrees.
+(h) Right seat belt mounting structure horizontal approach angles.
+(1) Locate a line formed by the shortest horizontal distance between CG-F2 for the right seat and the right seat belt mounting structure. If the seat belt mounting structure is below a horizontal plane passing through CG-F2 for the right seat, locate the point 200 mm directly below that CG-F2 and locate a line formed by the shortest horizontal distance between that point and the right seat belt mounting structure. The minimum horizontal approach angle for the right seat belt mounting structure equals the angle formed by that line and the X-axis of the vehicle measured counterclockwise, or 90 degrees, whichever is less.
+(2) Locate a line formed by the shortest horizontal distance between CG-R for the right seat and the right seat belt mounting structure. If the seat belt mounting structure is below a horizontal plane passing through CG-R, locate the point 200 mm directly below CG-R and locate a line formed by the shortest horizontal distance between that point and the right seat belt mounting structure. The maximum horizontal approach angle for the right seat belt mounting structure equals the angle formed by that line and the X-axis of the vehicle measured counterclockwise. If the CG-R does not exist, or is forward of the seat belt mounting structure, the maximum horizontal approach angle is 90 degrees.
+S8.13.4.2. Vertical Approach Angles.
+(a) Position the forehead impact zone in contact with the selected target at the prescribed horizontal approach angle. If a range of horizontal approach angles is prescribed, position the forehead impact zone in contact with the selected target at any horizontal approach angle within the range which may be used for testing.
+(b) Keeping the forehead impact zone in contact with the target, rotate the FMH upward until the lip, chin or other part of the FMH contacts the component or other portion of the vehicle interior.
+(1) Except as provided in S8.13.4.2(b)(2), keeping the forehead impact zone in contact with the target, rotate the FMH downward by 5 degrees for each target to determine the maximum vertical angle.
+(2) For all pillars, except A-pillars, and all door frames and seat belt mounting structures, keeping the forehead impact zone in contact with the target, rotate the FMH downward by 10 degrees for each target to determine the maximum vertical angle.
+S8.14. Multiple impacts.
+(a) A vehicle being tested may be impacted multiple times, subject to the limitations in
+S8.14(b), (c), (d) and (e).
+(b) As measured as provided in S8.14(d), impacts within 300 mm of each other may not occur less than 30 minutes apart.
+(c) impact.
+TITLE:
+As measured as provided in S8.14(d), no impact may occur within 150 mm of any other
+Occupant Protection in FMVSS 201 Interior Impact Jan/2012 PAGE: 18
+Licenced to: ATIEVA. Internal Use Only.
+Generated on 2015-06-24 13:40:51 by richardcolley@atieva.com
+Locate a line formed by the shortest horizontal distance between CG-R for the left seat and
+
+COUNTRY :U.S.A. © InterRegs Ltd 2012 ORIGINAL :F.R. Vol. 36 No. 232 - 02.12.1971
+(d)
+centers of the target circle specified in S8.11 for each impact, measured along the vehicle interior.
+For S8.14(b) and S8.14(c), the distance between impacts is the distance between the
+(e) No impact may occur within the "exclusion zone" of any pillar target specified in S10.1 through S10.4, door frame target specified in S10.14 and S10.15, upper roof target specified in S10.9, or seat belt mounting structure target specified in S10.16. The "exclusion zone" is determined according to the procedure in S8.14(f) through S8.14(k).
+(f) Locate the point, Point X, at the center of the target circle specified in S8.11 for the tested target.
+(g) Determine two spheres centered on Point X. Radii of these spheres are 150 mm and 200 mm, respectively.
+(h) Locate a horizontal plane passing through Point X. Determine the intersection points, if they exist, of the small sphere surface, the horizontal plane, and the vehicle interior surface. Relative to Point X, the point on the left is Point L and the point on the right is Point R.
+(i) Locate a vertical plane, Plane Z, passing through Point X and coincident (within ± 5°) with the horizontal approach angle used or intended for use in testing the target centered on Point X.
+(j) If either Point L or Point R does not exist, extend Line LX and/or Line RX, as appropriate, perpendicular to Plane Z beyond Point X by 150 mm. The end of the line is designated as Point L or Point R, as appropriate.
+(k) Locate a vertical plane, Plane ZL, passing through Point L and parallel to Plane Z. Locate another vertical plane, Plane ZR, passing through Point R and parallel to Plane Z. The "exclusion zone" is the vehicle interior surface area between Plane ZL and Plane ZR below the upper boundary of the smaller sphere and above the lower boundary of the larger sphere. Points on the intersection of the vehicle interior surface and the large sphere below the target, the small sphere above the target, Plane ZL and Plane ZR are not included in the "exclusion zone."
+S8.15. Upper Roof. The upper roof of a vehicle is determined according to the procedure specified in S8.15(a) through (h).
+(a) Locate the transverse vertical plane A at the forwardmost point where it contacts the interior roof (including trim) at the vehicle centerline.
+(b) Locate the transverse vertical plane B at the rearmost point where it contacts the interior roof (including trim) at the vehicle centerline.
+(c) Measure the horizontal distance (D1) between Plane A and Plane B.
+(d) Locate the vertical longitudinal plane C at the leftmost point at which a vertical transverse plane, located 300 mm rearward of the A-pillar reference point described in S10.1(a), contacts the interior roof (including trim).
+(e) Locate the vertical longitudinal plane D at the rightmost point at which a vertical transverse plane, located 300 mm rearward of the A-pillar reference point described in S10.1(a), contacts the interior roof (including trim).
+(f) Measure the horizontal distance (D2) between Plane C and Plane D.
+TITLE: Occupant Protection in
+Interior Impact Jan/2012
+Licenced to: ATIEVA. Internal Use Only.
+Generated on 2015-06-24 13:40:51 by richardcolley@atieva.com
+FMVSS 201 PAGE: 19
+
+COUNTRY :U.S.A. © InterRegs Ltd 2012 ORIGINAL :F.R. Vol. 36 No. 232 - 02.12.1971
+(g)
+B along the vehicle longitudinal centerline.
+Locate a point (Point M) on the interior roof surface, midway between Plane A and Plane
+(h) The upper roof zone is the area of the vehicle upper interior surface bounded by the four planes described in S8.15(h)(1) and S8.15(h)(2):
+(1) A transverse vertical plane E located at a distance of (.35 D1) forward of Point M and a transverse vertical plane F located at a distance of (.35 D1) rearward of Point M, measured horizontally.
+(2) A longitudinal vertical plane G located at a distance of (.35 D2) to the left of Point M and a longitudinal vertical plane H located at a distance of (.35 D2) to the right of Point M, measured horizontally.
+S8.16. Test weight–vehicle to pole test. Each vehicle shall be loaded to its unloaded vehicle weight, plus 136 kilograms (300 pounds) or its rated cargo and luggage capacity (whichever is less), secured in the luggage or load-carrying area, plus the weight of the necessary anthropomorphic test dummy. Any added test equipment shall be located away from impact areas in secure places in the vehicle.
+S8.17. Vehicle test attitude–vehicle to pole test. Determine the distance between a level surface and a standard reference point on the test vehicle's body, directly above each wheel opening, when the vehicle is in its "as delivered" condition. The "as delivered" condition is the vehicle as received at the test site, filled to 100 percent of all fluid capacities and with all tires inflated to the manufacturer's specifications listed on the vehicle's tire placard. Determine the distance between the same level surface and the same standard reference points in the vehicle's "fully loaded condition." The "fully loaded condition" is the test vehicle loaded in accordance with S8.16. The load placed in the cargo area shall be centered over the longitudinal centerline of the vehicle. The pretest vehicle attitude shall be same as either the "as delivered" or " fully loaded" attitude or is between the "as delivered" attitude and the "fully loaded" attitude. If the test configuration requires that the vehicle be elevated off the ground, the pretest vehicle attitude must be maintained.
+S8.18 Adjustable seats-vehicle to pole test. Initially, adjustable seats shall be adjusted as specified in S8.3.2.1 of Standard 214 (49 CFR 571.214).
+S8.19 Adjustable seat back placement−vehicle to pole test. Initially, position adjustable seat backs in the manner specified in S8.3.2.2 of Standard 214 (49 CFR 571.214).
+S8.20. Adjustable steering wheels–vehicle to pole test. Adjustable steering controls shall be adjusted so that the steering wheel hub is at the geometric center of the locus it describes when it is moved through its full range of driving positions.
+S8.21. Windows and sunroof–vehicle to pole test. Movable windows and vents shall be placed in the fully open position. Any sunroof shall be placed in the fully closed position.
+S8.22. Convertible tops–vehicle to pole test. The top, if any, of convertibles and open-body type vehicles shall be in the closed passenger compartment configuration.
+S8.23. Doors–vehicle to pole test. Doors, including any rear hatchback or tailgate, shall be fully closed and latched but not locked.
+S8.24. Impact reference line–vehicle to pole test. On the striking side of the vehicle, place an impact reference line at the intersection of the vehicle exterior and a transverse vertical plane passing through the center of gravity of the head of the dummy seated in accordance with S8.28, in the front outboard designated seating position.
+TITLE: Occupant Protection in FMVSS 201 Interior Impact Jan/2012 PAGE: 20
+Licenced to: ATIEVA. Internal Use Only.
+Generated on 2015-06-24 13:40:51 by richardcolley@atieva.com
+
+COUNTRY :U.S.A. © InterRegs Ltd 2012 ORIGINAL :F.R. Vol. 36 No. 232 - 02.12.1971
+S8.25.
+more than 102 millimeters (4 inches) above the lowest point of tires on the striking side of the test vehicle when the vehicle is loaded as specified in S8.16 and extending above the highest point of the roof of the test vehicle The pole is 254 mm +/- 3 mm (10 inches) in diameter and set off from any mounting surface, such as a barrier or other structure, so that the test vehicle will not contact such a mount or support at any time within 100 milliseconds of the initiation of vehicle to pole contact.
+S8.26. Impact configuration–vehicle to pole test. The rigid pole shall be stationary. The test vehicle shall be propelled sideways so that its line of forward motion forms an angle of 90 degrees (+/- 3 degrees) with the vehicle's longitudinal center line. The impact reference line shall be aligned with the center line of the rigid pole so that, when the vehicle-to-pole contact occurs, the center line of the pole contacts the vehicle area bounded by two transverse vertical planes 38 mm (1.5 inches) forward and aft
+of the impact reference line.
+S8.27. Anthropomorphic test dummy–vehicle to pole test.
+S8.27.1. The anthropomorphic test dummy used for evaluation of a vehicle's head impact protection shall conform to the requirements of subpart M of part 572 of this chapter (49 CFR part 572, subpart M). In a test in which the test vehicle is striking its left side, the dummy is to be configured and instrumented to strike on its left side, in accordance with subpart M of part 572.
+In a test in which the test vehicle is striking its right side, the dummy is to be configured and instrumented to strike its right side, in accordance with subpart M of part 572.
+S8.27.2. The part 572, subpart M, test dummy specified is clothed in form fitting cotton stretch garments with short sleeves and midcalf length pants. Each foot of the test dummy is equipped with a size 11EEE shoe, which meets the configuration size, sole, and heel thickness specifications of MIL-S-13192 (1976) and weighs 0.57 +/- 0.09 kilograms (1.25 +/- 0.2 pounds).
+S8.27.3. Limb joints shall be set at between 1 and 2 g's. Leg joints are adjusted with the torso in the supine position.
+S8.27.4. The stabilized temperature of the test dummy at the time of the side impact test shall be at any temperature between 20.6 degrees C. and 22.2 degrees C.
+S8.27.5. The acceleration data from the accelerometers installed inside the skull cavity of the test dummy are processed according to the practices set forth in SAE Recommended Practice J211, March 1995, "Instrumentation for Impact Tests," Class 1000.
+Rigid Pole–vehicle to pole test. The rigid pole is a vertical metal structure beginning no
+TITLE: Occupant Protection in FMVSS 201 Interior Impact Jan/2012 PAGE: 21
+Licenced to: ATIEVA. Internal Use Only.
+Generated on 2015-06-24 13:40:51 by richardcolley@atieva.com
+
+COUNTRY :U.S.A. © InterRegs Ltd 2012 ORIGINAL :F.R. Vol. 36 No. 232 - 02.12.1971
+Positioning procedure for the Part 572 Subpart M test dummy−vehicle to pole test. The
+S8.28.
+part 572, subpart M, test dummy is initially positioned in the front outboard seating position on the struck side of the vehicle in accordance with the provisions of S12.1 of Standard 214 (49 CFR 571.214), and the vehicle seat is positioned as specified in S8.3.2.1 and S8.3.2.2 of that standard. The position of the dummy is then measured as follows. Locate the horizontal plane passing through the dummy head center of gravity. Identify the rearmost point on the dummy head in that plane. Construct a line in the plane that contains the rearward point of the front door daylight opening and is perpendicular to the longitudinal vehicle centerline. Measure the longitudinal distance between the rearmost point on the dummy head and this line. If this distance is less than 50 mm (2 inches) or the point is not forward of the line, then the seat and/or dummy positions is adjusted as follows. First, the seat back angle is adjusted, a maximum of 5 degrees, until a 50 mm (2 inches) distance is achieved. If this is not sufficient to produce the 50 mm (2 inches) distance, the seat is moved forward until the 50 mm (2 inches) distance is achieved or until the knees of the dummy contact the dashboard or knee bolster, whichever comes first. If the required distance cannot be achieved through movement of the seat, the seat back angle is adjusted even further forward until the 50 mm (2 inches) distance is obtained or until the seat back is in its fully upright locking position.
+S9. Orthogonal Reference System. The approach angles specified in S8.13.4 are determined using the reference system specified in S9.1 through S9.4.
+S9.1. An orthogonal reference system consisting of a longitudinal X axis and a transverse Y axis in the same horizontal plane and a vertical Z axis through the intersection of X and Y is used to define the horizontal direction of approach of the headform. The X-Z plane is the vertical longitudinal zero plane and is parallel to the longitudinal centerline of the vehicle. The X-Y plane is the horizontal zero plane parallel to the ground. The Y-Z plane is the vertical transverse zero plane that is perpendicular to the X-Y and X-Z planes. The X coordinate is negative forward of the Y-Z plane and positive to the rear. The Y coordinate is negative to the left of the X-Z plane and positive to the right. The Z coordinate is negative below the X-Y plane and positive above it (See Figure 1.)
+S9.2. The origin of the reference system is the center of gravity of the headform at the time immediately prior to launch for each test.
+S9.3. The horizontal approach angle is the angle between the X axis and the headform impact velocity vector projected onto the horizontal zero plane, measured in the horizontal zero plane in the counter-clockwise direction. A 0 degree horizontal vector and a 360 degree horizontal vector point in the positive X direction; a 90 degree horizontal vector points in the positive Y direction; a 180 degree horizontal vector points in the negative X direction; and a 270 horizontal degree vector points in the negative Y direction. (See Figure 2.)
+S9.4. The vertical approach angle is the angle between the horizontal plane and the velocity vector, measured in the midsagittal plane of the headform. A 0 degree vertical vector in Table I coincides with the horizontal plane and a vertical vector of greater than 0 degrees in Table I makes a upward angle of the same number of degrees with that plane.
+S10. Target Locations.
+(a) The target locations specified in S10.1 through S10.16 are located on both sides of the vehicle and, except as specified in S10(b), are determined using the procedures specified in those paragraphs.
+TITLE: Occupant Protection in FMVSS 201 Interior Impact Jan/2012 PAGE: 22
+Licenced to: ATIEVA. Internal Use Only.
+Generated on 2015-06-24 13:40:51 by richardcolley@atieva.com
+
+COUNTRY :U.S.A. © InterRegs Ltd 2012 ORIGINAL :F.R. Vol. 36 No. 232 - 02.12.1971
+(b)
+specified in S8.13.4 at which the forehead impact zone of the free motion headform can contact one of the targets located using the procedures in S10.1 through S10.16, the center of that target is moved to any location within a sphere with a radius of 25 mm, centered on the center of the original target which the forehead impact zone can contact at one or more combination of angles.
+(c) If there is no point within the sphere specified in S10(b) which the forehead impact zone of the free motion headform can contact at one or more combination of horizontal and vertical angles specified in S8.13.4, the radius of the sphere is increased by 25 mm increments until the sphere contains at least one point that can be contacted at one or more combination of angles.
+S10.1. A-pillar targets.
+(a) A-pillar reference point and target AP1. On the vehicle exterior, locate a transverse vertical plane (Plane 1) which contacts the rearmost point of the windshield trim. The intersection of Plane 1 and the vehicle exterior surface is Line 1. Measuring along the vehicle exterior surface, locate a point (Point 1) on Line 1 that is 125 mm inboard of the intersection of Line 1 and a vertical plane tangent to the vehicle at the outboardmost point on Line 1 with the vehicle side door open. Measuring along the vehicle exterior surface in a longitudinal vertical plane (Plane 2) passing through Point 1, locate a point (Point 2) 50 mm rearward of Point 1. Locate the A-pillar reference point (Point APR) at the intersection of the interior roof surface and a line that is perpendicular to the vehicle exterior surface at Point 2. Target AP1 is located at point APR.
+(b) Target AP2. Locate the horizontal plane (Plane 3) which intersects point APR. Locate the horizontal plane (Plane 4) which is 88 mm below Plane 3. Target AP2 is the point in Plane 4 and on the A-pillar which is closest to CG−F2 for the nearest seating position.
+(c) Target AP3. Locate the horizontal plane (Plane 5) containing the highest point at the intersection of the dashboard and the A-pillar. Locate a horizontal plane (Plane 6) half-way between Plane 3 and Plane 5. Target AP3 is the point on Plane 6 and the A-pillar which is closest to CG−F1 for the nearest seating position.
+S10.2. B-pillar targets.
+(a) B-pillar reference point and target BP1. Locate the point (Point 3) on the vehicle interior at the intersection of the horizontal plane passing through the highest point of the forwardmost door opening and the centerline of the width of the B-pillar, as viewed laterally. Locate a transverse vertical plane (Plane 7) which passes through Point 3. Locate the point (Point 4) at the intersection of the interior roof surface, Plane 7 and the plane, described in S8.15(h), defining the nearest edge of the upper roof. The B-pillar reference point (Point BPR) is the point located at the middle of the line from Point 3 to Point 4 in Plane 7, measured along the vehicle interior surface. Target BP1 is located at Point BPR.
+(b) Target BP2. If a seat belt anchorage is located on the B-pillar, Target BP2 is located at any point on the anchorage.
+(c) Target BP3. Target BP3 is located in accordance with this paragraph. Locate a horizontal plane (Plane 8) which intersects Point BPR. Locate a horizontal plane (Plane 9) which passes through the lowest point of the daylight opening forward of the pillar. Locate a horizontal plane (Plane 10) half-way between Plane 8 and Plane 9. Target BP3 is the point located in Plane 10 and on the interior surface of the B-pillar, which is closest to CG−F(2) for the nearest seating position.
+TITLE: Occupant Protection in FMVSS 201 Interior Impact Jan/2012 PAGE: 23
+Licenced to: ATIEVA. Internal Use Only.
+Generated on 2015-06-24 13:40:51 by richardcolley@atieva.com
+Except as specified in S10(c), if there is no combination of horizontal and vertical angles
+
+COUNTRY :U.S.A. © InterRegs Ltd 2012 ORIGINAL :F.R. Vol. 36 No. 232 - 02.12.1971
+(d)
+Plane 10. Target BP4 is the point located in Plane 11 and on the interior surface of the B-pillar which is closest to CG−R for the nearest seating position.
+Target BP4. Locate a horizontal plane (Plane 11) half-way between Plane 9 and
+S10.3. Other pillar targets.
+(a) Target OP1.
+(1) Except a provided in S10.3(a)(2), Target OP1 is located in accordance with this paragraph. Locate the point (Point 5), on the vehicle interior, at the intersection of the horizontal plane through the highest point of the highest adjacent door opening or daylight opening (if no adjacent door opening) and the centerline of the width of the other pillar, as viewed laterally. Locate a transverse vertical plane (Plane 12) passing through Point 5. Locate the point (Point 6) at the intersection of the interior roof surface, Plane 12 and the plane, described in S8.15(h), defining the nearest edge of the upper roof. The other pillar reference point (Point OPR) is the point located at the middle of the line between Point 5 and Point 6 in Plane 12, measured along the vehicle interior surface. Target OP1 is located at Point OPR.
+(2) If a seat belt anchorage is located on the pillar, Target OP1 is any point on the anchorage.
+(b) Target OP2. Locate the horizontal plane (Plane 13) intersecting Point OPR. Located a horizontal plane (Plane 14) passing through the lowest point of the daylight opening forward of the pillar. Locate a horizontal plane (Plane 15) half-way between Plane 13 and Plane 14. Target OP2 is the point located on the interior surface of the pillar at the intersection of Plane 15 and the centerline of the width of the pillar, as viewed laterally.
+S10.4. Rearmost pillar targets.
+(a) Rearmost pillar reference point and target RP1. Locate the point (Point 7) at the corner of the upper roof nearest to the pillar. The distance between Point M, described in S8.15(g), and Point 7, as measured along the vehicle interior surface, is D. Extend the line from Point M to Point 7 along the vehicle interior surface in the same vertical plane by (3*D/7) beyond Point 7 or until the edge of a daylight opening, whichever comes first, to locate Point 8. The rearmost pillar reference point (Point RPR) is at the midpoint of the line between Point 7 and Point 8, measured along the vehicle interior. Target RP1 is located at Point RPR.
+(b) Target RP2.
+(1) Except as provided in S10.4(b)(2), Target RP2 is located in accordance with this paragraph. Locate the horizontal plane (Plane 16) through Point RPR. Locate the horizontal plane (Plane 17) 150 mm below Plane 16. Target RP2 is located in Plane 17 and on the pillar at the location closest to CG−R for the nearest designated seating position.
+(2) If a seat belt anchorage is located on the pillar, Target RP2 is any point on the anchorage.
+S10.5. Front header targets.
+(a) Target FH1. Locate the contour line (Line 2) on the vehicle interior trim which passes through the APR and is parallel to the contour line (Line 3) at the upper edge of the windshield on the vehicle interior. Locate the point (Point 9) on Line 2 that is 125 mm inboard of the APR, measured along that line. Locate a longitudinal vertical plane (Plane 18) that passes through Point 9. Target FH1 is located at the intersection of plane 18 and the upper vehicle interior, halfway between a transverse vertical plane (Plane 19) through Point 9 and a transverse vertical plane (Plane 20) through the intersection of Plane 18 and Line 3.
+TITLE: Occupant Protection in FMVSS 201 Interior Impact Jan/2012 PAGE: 24
+Licenced to: ATIEVA. Internal Use Only.
+Generated on 2015-06-24 13:40:51 by richardcolley@atieva.com
+
+COUNTRY :U.S.A. © InterRegs Ltd 2012 ORIGINAL :F.R. Vol. 36 No. 232 - 02.12.1971
+(b) Target FH2.
+(1)
+paragraph. Locate a point (Point 10) 275 mm inboard of Point APR, along Line 2. Locate a longitudinal vertical plane (Plane 21) that passes through Point 10. Target FH2 is located at the intersection of Plane 21 and the upper vehicle interior, halfway between a transverse vertical plane (Plane 22) through Point 10 and a transverse vertical plane (Plane 23) through the intersection of Plane 21 and Line 3.
+(2) If a sunroof opening is located forward of the front edge of the upper roof and intersects the mid-sagittal plane of a dummy seated in either front outboard seating position, target FH2 is the nearest point that is forward of a transverse vertical plane (Plane 24) through CG−F(2) and on the intersection of the mid-sagittal plane and the interior sunroof opening.
+S10.6. Targets on the side rail between the A-pillar and the B-pillar or rearmost pillar in vehicles with only two pillars on each side of the vehicle.
+(a) Target SR1. Locate a transverse vertical plane (Plane 25) 150 mm rearward of Point APR. Locate the point (Point 11) at the intersection of Plane 25 and the upper edge of the forwardmost door opening. Locate the point (Point 12) at the intersection of the interior roof surface, Plane 25 and the plane, described in S8.15(h), defining the nearest edge of the upper roof. Target SR1 is located at the middle of the line between Point 11 and Point 12 in Plane 25, measured along the vehicle interior.
+(b) Target SR2. Locate a transverse vertical plane (Plane 26) 300 mm rearward of the APR or 300 mm forward of the BPR (or the RPR in vehicles with no B-pillar). Locate the point (Point 13) at the intersection of Plane 26 and the upper edge of the forwardmost door opening. Locate the point (Point 14) at the intersection of the interior roof surface, Plane 26 and the plane, described in S8.15(h), defining the nearest edge of the upper roof. Target SR2 is located at the middle of the line between Point 13 and Point 14 in Plane 26, measured along the vehicle interior.
+S10.7. Other side rail target (target SR3).
+(a) Except as provided in S10.7(b), target SR3 is located in accordance with this paragraph. Locate a transverse vertical plane (Plane 27) 150 mm rearward of either Point BPR or Point OPR. Locate the point (Point 15) as provided in either S10.7(a)(1) or S10.7(a)(2), as appropriate. Locate point (Point 16) at the intersection of the interior roof surface, Plane 27 and the plane, described in S8.15(h), defining the nearest edge of the upper roof. Target SR3 is located at the middle of the line between Point 15 and Point 16 in Plane 27, measured along the vehicle interior surface.
+(1) If Plane 27 intersects a door or daylight opening, the Point 15 is located at the intersection of Plane 27 and the upper edge of the door opening or daylight opening.
+(2) If Plane 27 does not intersect a door or daylight opening, the Point 15 is located on the vehicle interior at the intersection of Plane 27 and the horizontal plane through the highest point of the door or daylight opening nearest Plane 27. If the adjacent door(s) or daylight opening(s) are equidistant to Plane 27, Point 15 is located on the vehicle interior at the intersection of Plane 27 and either horizontal plane through the highest point of each door or daylight opening.
+(b) Except as provided in S10.7(c), if a grab handle is located on the side rail, target SR3 is located at any point on the anchorage of the grab-handle. Folding grab-handles are in their stowed position for testing.
+(c) If a seat belt anchorage is located on the side rail, target SR3 is located at any point on the anchorage.
+TITLE: Occupant Protection in FMVSS 201 Interior Impact Jan/2012 PAGE: 25
+Licenced to: ATIEVA. Internal Use Only.
+Generated on 2015-06-24 13:40:51 by richardcolley@atieva.com
+Except as provided in S10.5(b)(2), target FH2 is located in accordance with this
+
+COUNTRY :U.S.A. © InterRegs Ltd 2012 ORIGINAL :F.R. Vol. 36 No. 232 - 02.12.1971
+S10.8. Rear header target (target RH). Locate the point (Point 17) at the intersection of the surface of the upper vehicle interior, the mid-sagittal plane (Plane 28) of the outboard rearmost dummy and the plane, described in S8.15(h), defining the rear edge of the upper roof. Locate the point (Point 18) as provided in S10.8(a) or S10.8(b), as appropriate. Except as provided in S10.8(c), Target RH is located at the mid-point of the line that is between Point 17 and Point 18 and is in Plane 28, as measured along the surface of the vehicle interior.
+(a) If Plane 28 intersects a rear door opening or daylight opening, then Point 18 is located at the intersection of Plane 28 and the upper edge of the door opening or the daylight opening (if no door opening).
+(b) If Plane 28 does not intersect a rear door opening or daylight opening, then Point 18 is located on the vehicle interior at the intersection of Plane 28 and a horizontal plane through the highest point of the door or daylight opening nearest to Plane 28. If the adjacent door(s) or daylight opening(s) are equidistant to Plane 28, Point 18 is located on the vehicle interior at the intersection of Plane 28 and either horizontal plane through the highest point of each door or daylight opening.
+(c) If Target RH is more than 112 mm from Point 18 on the line that is between Point 17 and Point 18 and is in Plane 28, as measured along the surface of the vehicle interior, then Target RH is the point on that line which is 112 mm from Point 18.
+S10.9. Upper roof target (target UR). Target UR is any point on the upper roof.
+S10.10. Sliding door track target (target SD). Locate the transverse vertical plane (Plane 29) passing through the middle of the widest opening of the sliding door, measured horizontally and parallel to the vehicle longitudinal centerline. Locate the point (Point 19) at the intersection of the surface of the upper vehicle interior, Plane 29 and the plane, described in S8.15(h), defining the nearest edge of the upper roof. Locate the point (Point 20) at the intersection of Plane 29 and the upper edge of the sliding door opening. Target SD is located at the middle of the line between Point 19 and Point 20 in Plane 29, measured along the vehicle interior.
+S10.11. Roll-bar targets.
+(a) Target RB1. Locate a longitudinal vertical plane (Plane 30) at the mid-sagittal plane of a dummy seated in any outboard designated seating position. Target RB1 is located on the roll-bar and in Plane 30 at the location closest to either CG−F2 or CG−R, as appropriate, for the same dummy.
+(b) Target RB2. If a seat belt anchorage is located on the roll-bar, Target RB2 is any point on the anchorage.
+S10.12. Stiffener targets.
+(a) Target ST1. Locate a transverse vertical plane (Plane 31) containing either CG−F2 or CG−R, as appropriate, for any outboard designated seating position. Target ST1 is located on the stiffener and in Plane 31 at the location closest to either CG−F2 or CG−R, as appropriate.
+(b) Target ST2. If a seat belt anchorage is located on the stiffener, Target ST2 is any point on the anchorage.
+S10.13. Brace target (target BT). Target BT is any point on the width of the brace as viewed laterally from inside the passenger compartment.
+TITLE: Occupant Protection in FMVSS 201 Interior Impact Jan/2012 PAGE: 26
+Licenced to: ATIEVA. Internal Use Only.
+Generated on 2015-06-24 13:40:51 by richardcolley@atieva.com
+
+COUNTRY :U.S.A. © InterRegs Ltd 2012 ORIGINAL :F.R. Vol. 36 No. 232 - 02.12.1971
+S10.14 Door frame targets.
+(a) Target DF 1. Locate the point (Point 21) on the vehicle interior at the intersection of the horizontal plane passing through the highest point of the forward door opening and a transverse vertical plane (Plane 32 ) tangent to the rearmost edge of the forward door, as viewed laterally with the adjacent door open. Locate the point (Point 22) at the intersection of the interior roof surface, Plane 32, and the plane, described in S8.15(h), defining the nearest edge of the upper roof. The door frame reference point (Point DFR) is the point located at the middle of the line from Point 21 to Point 22 in Plane 32, measured along the vehicle interior surface. Target DF1 is located at Point DFR.
+(b) Target DF2. If a seat belt anchorage is located on the door frame, Target DF2 is located at any point on the anchorage.
+(c) Target DF3. Locate a horizontal plane (Plane 33) which intersects Point DFR. Locate a horizontal plane (Plane 34) that passes through the lowest point of the adjacent daylight opening forward of the door frame. Locate a horizontal plane (Plane 35) half-way between Plane 33 and Plane 34. Target DF3 is the point located in Plane 35 and on the interior surface of the door frame, which is closest to CG-F2 for the nearest seating position.
+(d) Target DF4. Locate a horizontal plane (Plane 36) half-way between Plane 34 and Plane 35. Target DF4 is the point located in Plane 36 and on the interior surface of the door frame that is closest to CG-R for the nearest seating position.
+S10.15 Other door frame targets.
+(a) Target OD1.
+(1) Except as provided in S10.15(a)(2), target OD1 is located in accordance with this paragraph. Locate the point (Point 23) on the vehicle interior, at the intersection of the horizontal plane through the highest point of the highest adjacent door opening or daylight opening (if there is no adjacent door opening) and the center line of the width of the other door frame, as viewed laterally with the doors in the closed position. Locate a transverse vertical plane (Plane 37) passing through Point 23. Locate the point (Point 24) at the intersection of the interior roof surface, Plane 37 and the plane, described in S8.15(h), defining the nearest edge of the upper roof. The other door frame reference point (Point ODR) is the point located at the middle of the line between Point 23 and Point 24 in Plane 37, measured along the vehicle interior surface. Target OD1 is located at Point ODR.
+(2) If a seat belt anchorage is located on the door frame, Target OD1 is any point on the anchorage.
+(b) Target OD2. Locate the horizontal plane (Plane 38) intersecting Point ODR. Locate a horizontal plane (Plane 39) passing through the lowest point of the daylight opening forward of the door frame. Locate a horizontal plane (Plane 40) half-way between Plane 38 and Plane 39. Target OD2 is the point located on the interior surface of the door frame at the intersection of Plane 40 and the center line of the width of the door frames, as viewed laterally, with the doors in the closed position.
+S10.16 Seat belt mounting structure targets.
+(a) Target SB1. Target SB1 is located at any point on the seat belt anchorage mounted on the
+seat belt mounting structure.
+TITLE: Occupant Protection in FMVSS 201 Interior Impact Jan/2012 PAGE: 27
+Licenced to: ATIEVA. Internal Use Only.
+Generated on 2015-06-24 13:40:51 by richardcolley@atieva.com
+
+COUNTRY :U.S.A. © InterRegs Ltd 2012 ORIGINAL :F.R. Vol. 36 No. 232 - 02.12.1971
+(b)
+appropriate, for any outboard designated seating position whose seating reference point, SgRP, is forward of and closest to, the vertical center line of the width of the seat belt mounting structure as viewed laterally. Target SB2 is located on the seat belt mounting structure and in Plane 41 at the location closest to either CG-F2 or CG-R, as appropriate.
+(c) Target SB3. Locate a horizontal plane (Plane 42), containing CG-R for any outboard designated seating position rearward of the forwardmost designated seating position or positions whose seating reference point, SgRP, is rearward of and closest to, the vertical center line of the width of the seat belt mounting structure, as viewed laterally. Locate a horizontal plane (Plane 43) 200 mm below Plane 42. Target SB3 is located on the seat belt mounting structure and in Plane 43 at the location closest to CG-R, as appropriate.
+Target SB2. Locate a horizontal plane (Plane 41), containing either CG-F2 or CG-R, as
+ TITLE:
+Occupant Protection in
+Interior Impact Jan/2012
+Licenced to: ATIEVA. Internal Use Only.
+Generated on 2015-06-24 13:40:51 by richardcolley@atieva.com
+FMVSS 201 PAGE: 28
+Figure 1 Orthogonal Reference System
+
+COUNTRY :U.S.A.
+ORIGINAL :F.R. Vol. 36 No. 232 - 02.12.1971
+© InterRegs Ltd 2012
+       TITLE:
+Figure 2
+Vertical and Horizontal Approach Angle Plane
+Occupant Protection in
+Interior Impact Jan/2012
+Licenced to: ATIEVA. Internal Use Only.
+Generated on 2015-06-24 13:40:51 by richardcolley@atieva.com
+FMVSS 201 PAGE: 29
+
+COUNTRY :U.S.A. © InterRegs Ltd 2006 ORIGINAL :F.R. Vol. 71 No. 78 – 24.04.2006
+DEPARTMENT OF TRANSPORTATION
+National Highway Traffic Safety Administration
+49 CFR Part 571 [Docket No. NHTSA−2006−24497] RIN 2127−AI93 Federal Motor Vehicle Safety Standards; Occupant Protection in
+Interior Impact
+AGENCY: National Highway Traffic Safety Administration (NHTSA), Department of Transportation (DOT).
+ACTION: Response to petitions for rulemaking; notice of proposed rulemaking.
+SUMMARY: Our safety standard on occupant protection in interior impact requires, in part, that light vehicles provide head protection when an occupant's head strikes upper interior components, such as pillars, side rails, headers, and the roof during a crash. For altered vehicles and vehicles built in two or more stages, these requirements become effective September 1, 2006. The Recreation Vehicle Industry Association and the National Truck Equipment Association petitioned the agency to permanently exclude certain types of altered vehicles and vehicles manufactured in two or more stages from these requirements. This document responds to these petitions for rulemaking and proposes certain amendments to the standard.
+Based on a careful consideration of both the safety benefits of the upper interior protection requirements, and practicability concerns relating to vehicles built in two or more stages and certain altered vehicles, we are proposing to limit these requirements to only the front seating positions of those vehicles. Further, we tentatively conclude that it is appropriate to exclude a narrow group of multi-stage vehicles delivered to the final stage manufacturer without an occupant compartment, because of impracticability concerns.
+We are also proposing to delay the effective date of the head impact protection requirements as they apply to final stage manufacturers and alterers until September 1, 2008.
+DATES: You should submit your comments early enough to ensure that Docket Management System PROPOSAL receives them not later than June 23, 2006.
+ADDRESSES: You may submit comments [identified by DOT Docket Number at the beginning of this document] by any of the following methods:
+• Web site: http://dms.dot.gov. Follow the instructions for submitting comments on the DOT electronic docket site.
+• Fax: 1-202-493-2251.
+• Mail: Docket Management System; U.S. Department of Transportation, 400 7th Street, SW., Room PL-401, Washington, DC 20590.
+• Hand Delivery: Room PL-401 on the plaza level of the Nassif Building, 400 7th Street, SW., Washington, DC, between 9 a.m. and 5 p.m., Monday through Friday, except Federal Holidays.
+• Federal eRulemaking Portal: Go to http://www.regulations.gov. Follow the online instructions for submitting comments.
+TITLE: Proposed Amendment 24.04.2006 FMVSS 201 May/2006 PAGE: 1
+Licenced to: ATIEVA. Internal Use Only.
+Generated on 2015-06-24 13:40:51 by richardcolley@atieva.com
+
+COUNTRY :U.S.A. © InterRegs Ltd 2006 ORIGINAL :F.R. Vol. 71 No. 78 – 24.04.2006
+Instructions: All submissions must include the agency name and docket number or Regulatory Identification Number (RIN) for this rulemaking. For detailed instructions on submitting comments and additional information on the rulemaking process, see the Public Participation heading of the SUPPLEMENTARY INFORMATION section of this document. Note that all comments received will be posted without change to http://dms.dot.gov, including any personal information provided.
+Please see the Privacy Act heading under Regulatory Notices.
+Docket: For access to the docket to read background documents or comments received, go to http://dms.dot.gov at any time or to Room PL-01 on the plaza level of the Nassif Building, 400 7th Street, SW., Washington, DC, between 9 a.m. and 5 p.m., Monday through Friday, except Federal Holidays. FOR FURTHER INFORMATION CONTACT: The following persons at the National Highway Traffic Safety Administration, 400 7th Street, SW., Washington, DC 20590:
+For technical and policy issues: Lori Summers, Office of Crashworthiness Standards, telephone: (202) 366-4917, facsimile: (202) 366-4329, E-mail: Lori.Summers@dot.gov.
+For legal issues: George Feygin, Office of the Chief Counsel, telephone: (202) 366-2992, facsimile: (202) 366-3820, E-mail George.Feygin@dot.gov.
+SUPPLEMENTARY INFORMATION:
+Table of Contents
+I. Background
+A. 1995 Final Rule Upgrading FMVSS No. 201
+B. Subsequent Amendments to FMVSS No. 201
+II. Petitions for Rulemaking
+A. Recreation Vehicle Industry Association Petition for Rulemaking
+B. National Truck Equipment Association Petition for Rulemaking
+III. The Agency's New Approach to Vehicles Built in Two or More Stages and Altered Vehicles
+A. "Pass-Through" Certification
+B. The Agency's Authority To Exclude Multi-Stage Vehicles From FMVSSs
+PROPOSAL C. New Temporary Exemption Procedures Available to Final Stage Manufacturers and Alterers
+IV. Response to the RVIA and NTEA Petitions for Rulemaking
+A. Proposal To Limit the Occupant Compartment Area Subject to the FMH Impact Requirements in Ambulances, Motor Homes, and Other Vehicles Manufactured in Two or More Stages, and Altered Vehicles
+B. Proposal To Exclude Vehicles Manufactured in Two or More Stages, Other Than Motor Homes, Chassis Cabs, Cutaway Vans, and Other Incomplete Vehicles With a Furnished Front Compartment, From FMH Impact Requirements
+C. Question Regarding Multistage Vehicles With Raised Roofs
+D. Additional Relief Is Not Warranted
+V. Effective Date
+VI. Submission of Comments
+VII. Regulatory Analyses and Notices
+VIII. Proposed Regulatory Text
+TITLE: Proposed Amendment
+FMVSS 201 May/2006
+Licenced to: ATIEVA. Internal Use Only.
+Generated on 2015-06-24 13:40:51 by richardcolley@atieva.com
+24.04.2006 PAGE: 2
+
+COUNTRY :U.S.A. © InterRegs Ltd 2006 ORIGINAL :F.R. Vol. 71 No. 78 – 24.04.2006
+I. Background
+A. 1995 Final Rule Upgrading FMVSS No. 201
+On August 18, 1995, the National Highway Traffic Safety Administration (NHTSA) issued a final rule (August 1995 final rule) amending Federal Motor Vehicle Safety Standard (FMVSS) No. 201, "Occupant Protection in Interior Impact," to provide enhanced head impact protection. (1) The August 1995 final rule required passenger cars, and trucks, buses and multipurpose passenger vehicles (MPVs) with a gross vehicle weight rating (GVWR) of 4,536 kilograms (10,000 pounds) or less, to provide protection when an occupant's head strikes upper interior components, including pillars, side rails, headers, and the roof, during a crash. The new head protection requirements were necessary because even in vehicles equipped with air bags, head impacts with upper interior components resulted in a significant number of occupant injuries and fatalities.
+The August 1995 final rule significantly expanded the scope of FMVSS No. 201. Previously, the standard applied to the instrument panel, seat backs, interior compartment doors, arm rests and sun visors, but not to interior components such as pillars and headers. The final rule set minimum performance requirements for these upper interior components by establishing target areas that must be padded or otherwise have energy absorbing properties to minimize head injury in the event of a crash. The final rule added procedures for a new in-vehicle component test in which a free-motion head form (FMH) is fired at certain target locations on the upper interior of a vehicle at an impact speed of 24 km/h (15 mph). Targets that are located on or within 50 mm (2 inches) of dynamically deployable upper interior head protection systems (air bags systems) can, at the option of the manufacturer, be impacted at the reduced speed of 19 km/h (12 mph). Data collected from an FMH impact are translated into a Head Injury Criterion (HIC(d)) score. The resultant HIC(d) must not exceed 1000.
+The FMH impact requirements excluded targets located on convertible roof frames or roof linkage mechanisms, targets located at least 24 inches rearward of the rearmost designated seating position, and targets located at least 24 inches rearward of the driver's seating position in an ambulance or a motor home. Walk-in van-type vehicles were also excluded from the new requirements because upper interior components on those vehicles are located much higher compared to other vehicles, and head impacts against these components are unlikely for belted occupants. (2)
+The 1995 final rule provided manufacturers with three alternate phase-in schedules for complying with PROPOSAL the FMH impact requirements. At this time, all vehicles except altered vehicles and vehicles manufactured in two-or-more stages are required to comply with the FMH impact requirements. (3) As discussed below, the effective date for altered vehicles and vehicles manufactured in two or more stages to comply with these requirements is presently September 1, 2006. (4)
+(1)
+See 60 FR 43031, Aug. 18, 1995; Docket No. NHTSA-1996-1762-1.
+(2)
+The current exclusions are specified in S6.3 of 49 CFR 571.201.
+(3)
+We note that under S6.3(d), walk-in van-type vehicles are permanently excluded from the FMH impact requirements.
+(4)
+See S6.1.4 of 49 CFR 571.201.
+TITLE: Proposed Amendment
+24.04.2006 PAGE: 3 FMVSS 201 May/2006
+Licenced to: ATIEVA. Internal Use Only.
+Generated on 2015-06-24 13:40:51 by richardcolley@atieva.com
+ 
+COUNTRY :U.S.A. © InterRegs Ltd 2006 ORIGINAL :F.R. Vol. 71 No. 78 – 24.04.2006
+B. Subsequent Amendments to FMVSS No. 201
+On April 8, 1997, the agency responded to petitions for reconsideration of the 1995 final rule. (5) Among other things, the agency delayed the effective date of the FMH impact requirements for vehicles manufactured in two or more stages until September 1, 2002. The agency also excluded buses with a GVWR of more than 3,856 kg (8,500 pounds) from the FMH impact requirements because we were concerned that these requirements were prohibitively costly for that class of vehicles. (6) Finally, the agency denied a petition to exclude police vehicles from the FMH impact requirements because the petitioner did not present evidence to indicate that police equipment required different treatment from interior attachments present in other vehicles subjected to testing.
+In 2002, in response to petitions (described in detail in the next section) to permanently exclude altered vehicles and vehicles manufactured in two or more stages from the FMH impact requirements, the agency issued an interim final rule, delaying the effective date of these requirements as they apply to altered vehicles and vehicles manufactured in two or more stages until September 1, 2003. (7) On August 28, 2003, the agency further delayed the effective date of the FMH impact requirements for altered vehicles and vehicles manufactured in two or more stages until September 1, 2006. (8) The issue of permanent exclusion of these types of vehicles is being addressed in the subsequent sections of this notice. (9)
+II. Petitions for Rulemaking
+This document addresses petitions for rulemaking submitted by the Recreation Vehicle Industry Association (RVIA) and the National Truck Equipment Association (NTEA). The member companies of RVIA and NTEA are generally considered final-stage manufacturers and alterers. That is, they purchase incomplete vehicles from major manufacturers to serve as the basis for specialty vehicles (manufactured in two or more stages) for certain uses and markets, or alter completed vehicles prior to first retail sale. As such, the petitioners' members face a variety of challenges in certifying that their vehicles meet applicable safety standards. We note that with respect to vehicles manufactured in two or more stages, some multi-stage vehicles are built from chassis-cabs with a completed occupant compartment. Others are built from less complete vehicles, often necessitating the addition by the final-stage manufacturer of its own occupant compartment . The final stage manufacturer is responsible for certification of the completed vehicle, although, as discussed below, it can often "pass-through" by incomplete vehicle manufacturer. PROPOSAL A. Recreation Vehicle Industry Association Petition for Rulemaking
+On October 4, 2001, the RVIA submitted a petition for rulemaking requesting that "van conversions, altered vehicles, and motor homes" with a GVWR of 10,000 pounds or less be excluded from the requirements of the August 1995 final rule. (10)
+(5)
+See 62 FR 16718, April 8, 1997.
+(6)
+See id at 16720.
+(7)
+See 67 FR 41348, June 18, 2002.
+(8)
+See 68 FR 51706, August 28, 2003.
+(9)
+We note that there have been other, more recent amendments to the requirements of FMVSS No. 201. However, their content had no relevance to this NPRM.
+(10) To examine the petition, please go to http://dms.dot.gov/ and enter Docket No. NHTSA-2000-7145-6.
+TITLE: Proposed Amendment
+24.04.2006 PAGE: 4 FMVSS 201 May/2006
+Licenced to: ATIEVA. Internal Use Only.
+Generated on 2015-06-24 13:40:51 by richardcolley@atieva.com
+ 
+COUNTRY :U.S.A. © InterRegs Ltd 2006 ORIGINAL :F.R. Vol. 71 No. 78 – 24.04.2006
+The RVIA is a national trade association representing final stage manufacturers and alterers. These entities alter vans, pickup trucks, and sport utility vehicles prior to first retail sale (RVIA refers to these vehicles collectively as conversion vehicles or "CVs"), and also manufacture motor homes. The RVIA petition requested that CVs and motor homes be excluded from the FMH impact requirements for the following reasons:
+1. RVIA argues that in the statutory enactment directing NHTSA to improve head impact protection, Congress specifically limited its mandate to passenger cars. RVIA stated that a proposed Senate amendment to include multipurpose passenger vehicles (MPVs) and light duty trucks (LDTs) was expressly rejected. (11) Because the agency chose to proceed beyond the congressional mandate, RVIA argues that NHTSA has the discretion to exclude vehicles, other than passenger cars, from the FMH impact requirements.
+2. With the exception of a single entity, all RVIA members fall under the "small business" definition for the purposes of Small Business Administration regulations. (12) RVIA states that its members have been operating in a declining market where production of CVs and motor homes has been declining sharply. For example, in 1999, RVIA members produced 104,100 CVs and 4,634 motor homes. By contrast, 2001 shipments were projected at 38,000 CVs and 3,629 motor homes. In light of their member's "small business" status and declining sales, RVIA argues that the member companies do not have the financial resources and technical expertise to comply with FMH impact requirements.
+3. RVIA estimates the cost of compliance (including development and tooling) to average $2,401 to $4,850 per each CV and $4,748 to $5,747 per each motor home, respectively. (13) RVIA estimates that the costs associated with certification testing to be as high as $46,000 for each vehicle configuration.
+RVIA argues that most CVs and motor homes feature unique interior designs. Specifically, these vehicles include overhead cabinets, side valances, raised roof structures, and other unusual interior components. RVIA members offer an average of 18 different CV configurations each, all of which would require separate certification testing. Some offer as many as 38 different CV variations. Motor home manufacturers offer as many as 14 motor home variations. However, at least one motor home manufacturer offers at least 73 different "floor plans." RVIA states that this product variation necessitates conducting FMH impact testing on each vehicle configuration and may even require multiple identical vehicles to test each configuration. PROPOSAL Because of the differences in the customized interiors, RVIA argues that the manufacturers have been unable to arrive at practicable and cost-effective "countermeasures;" i.e., additional padding designed to bring these vehicles into compliance with FMH impact requirements.
+4. RVIA states that cooperative testing, suggested by NHTSA as a way to lessen compliance costs associated with FMH requirements, is not practicable because each RVIA member manufactures unique vehicles, each substantially different from its competitors. Because these vehicles are different, cooperative testing is impossible unless interiors for all vehicles manufactured by RVIA members are made uniform. Accordingly, RVIA argues that cooperative testing would eliminate interior customization, which would in turn result in a loss of market for CVs and motor homes.
+(11) See H.R. Conf. Rep. No. 102-404, at 395-396 (1991).
+(12) See 13 CFR 121.201.
+(13) RVIA's detailed certification testing and tooling cost estimates are on page 7 and in Exhibit D of the petition (Docket No. NHTSA-2002-7145-6).
+TITLE: Proposed Amendment 24.04.2006
+FMVSS 201 May/2006 PAGE: 5
+Licenced to: ATIEVA. Internal Use Only.
+Generated on 2015-06-24 13:40:51 by richardcolley@atieva.com
+ 
+COUNTRY :U.S.A. © InterRegs Ltd 2006 ORIGINAL :F.R. Vol. 71 No. 78 – 24.04.2006
+5.
+RVIA argues that the safety benefits of FMH impact requirements as applied to CVs and motor homes are marginal. RVIA conducted a survey of CV and motor home manufacturers which showed no crashes in which an occupant injury or death had occurred due to head impacts with upper interior components covered by FMH impact requirements.
+RVIA cites Fatal Analysis Reporting System (FARS) data in arguing that van-based motor homes are safe. Specifically, between 1996 and 1999, there was an average of 14 fatalities per year in all van-based motor homes regardless of the GVWR, which translates to 0.0039 fatalities per 1,000,000 annual vehicle miles (compared to 0.0143 fatalities per 1,000,000 miles for passenger cars). Based on these data, RVIA estimates that the safety benefit reduction from excluding small, van-based motor homes from the FMH impact requirements would be extremely low. Since FARS does not track crash data for all CVs, RVIA was not able to make a similar estimate for CVs. However, RVIA argues that CVs are safer than an average passenger car, and that the safety benefit reduction in the case of CVs would also be quite low. (14)
+6. RVIA members produce vehicles to the consumer's specifications and many special components and designs are installed in response to consumer requests. RVIA argues that in granting a previous (unrelated) temporary exemption from the requirements of FMVSS No. 201, the agency acknowledged public benefit in affording consumers a wide choice of motor vehicles. (15) Petitioners asked that the agency adhere to this policy by allowing RVIA members to continue manufacturing CVs and motor homes built to customer specifications.
+B. National Truck Equipment Association Petition for Rulemaking
+On November 27, 2001, NTEA submitted a petition for rulemaking requesting that certain vehicles manufactured in two or more stages be excluded from FMH impact requirements arguing that the requirements are impracticable as they apply to these vehicles. (16) These vehicles included ambulances, fire fighting, rescue, emergency, and law enforcement vehicles. Additionally, the NTEA requested exemption from FMH impact requirements for any target in a truck or multipurpose passenger vehicle located rearward of a vertical transverse plane through the foremost design H-point of the rear most forward facing designated seating position where the vehicle is equipped with a full or partial bulkhead or other similar device for the purpose of protecting or isolating the driver and passenger compartment from the cargo carrying, load bearing, or work performing area of the vehicle. PROPOSAL NTEA represents 1,500 distributors, final stage and intermediate manufacturers, and alterers of work- related trucks, truck bodies and equipment. More specifically, NTEA member companies produce ambulances, fire fighting, rescue, emergency or law enforcement vehicles, utility company vehicles, aerial bucket trucks, delivery trucks and a variety of other specialized vehicles for commercial or vocational use. These entities generally use incomplete vehicles provided by major manufacturers and assemble a completed vehicle for a specified purpose using the chassis provided by another company. As discussed above, altered vehicles and vehicles manufactured in two or more stages must comply with FMH impact requirements beginning September 1, 2006. In 2001, NTEA estimated that 377,000 vehicles produced by its members annually would have to meet the FMH impact requirements.
+(14) Petitioners support this assertion by a letter from RV Alliance America. The letter is found in Exhibit E (Docket No. NHTSA-2002-7145-6).
+(15) See 64 FR 61379, November 10, 1999.
+(16) See NHTSA-2001-8876-10 at http://dms.dot.gov/. NTEA also filed subsequent petitions to delay the effective date of the August 1995 final rule as it applied to vehicles manufactured in two or more stages. These later petitions relied on the same arguments presented to the agency in the November 27, 2001 document (see NHTSA-2002-12480-2, NHTSA-2002-12480-3).
+TITLE: Proposed Amendment 24.04.2006 FMVSS 201 May/2006 PAGE: 6
+Licenced to: ATIEVA. Internal Use Only.
+Generated on 2015-06-24 13:40:51 by richardcolley@atieva.com
+ 
+COUNTRY :U.S.A. © InterRegs Ltd 2006 ORIGINAL :F.R. Vol. 71 No. 78 – 24.04.2006
+NTEA asked for an exclusion of such vehicles because it believes that NTEA member manufacturers will not be able to demonstrate that these vehicles comply with FMH impact requirements without conducting individual full-scale dynamic testing on each vehicle model, which NTEA argues is not economically or technologically possible. Other options for demonstrating compliance, such as pass through certifications, engineering analysis, and computer modeling, are, according to NTEA, not available or economically feasible.
+First, NTEA believes that FMH testing for the subject vehicles is not economically feasible because of the number of vehicle configurations produced by the multi-stage truck and specialty vehicle industry. NTEA estimates that in aggregate, compliance testing would cost its members $160,000,000. Specifically, NTEA states that there are over 1,200 identifiable vehicle configurations produced by its members. For each configuration, the cost of actual testing is approximately $14,000 to $17,000 (NTEA states that this cost estimate does not account for development costs, costs for re-testing after failures, transportation of the vehicle to the test facility, or countermeasures in production vehicles that would be necessary to produce a compliant vehicle). (17) Besides costs, NTEA argues that it is not feasible to test each vehicle configuration produced by its member manufacturers because they are aware of only two testing facilities that provide dynamic testing, and each is only capable of testing 12 vehicles per month. ---------------------------------------------------------------------------
+Second, NTEA stated that alternative options to demonstrate compliance such as pass-through certifications, (18) test data from component vendors, engineering analysis, computer modeling, and consortium dynamic testing, are not available.
+Specifically, NTEA argued that pass-through is not an available option because the member manufacturers often complete the vehicle "outside the parameters" provided by the chassis manufacturer. For example, the installation of bulkheads or partitions usually invalidates the chassis manufacturer's compliance statement. In many work vans, emergency vehicles, or police vehicles, bulkheads or dividers are needed to ensure that objects or people that must remain in the rear of the vehicle actually do so. Installation of these bulkheads, according to NTEA, is likely to require relocation of target areas originally certified by the incomplete vehicle manufacturer, adding to the compliance burden of the NTEA member and frustrating the ability to take advantage of "pass through" certification. Furthermore, NTEA asserts that the chassis manufacturer's completion guidelines are too restrictive to allow for compliance. PROPOSAL Additionally, NTEA argued that other compliance options are also unavailable to multi-stage manufacturers. NTEA stated that the chassis manufacturers do not provide sufficient compliance information to the multi-stage manufacturers and that the test data is not enough to certify compliance under FMVSS No. 201 because validation requires in-system testing. NTEA also argued that engineering analysis and computer modeling are not possible because they require previous dynamic test data that do not exist. Finally, NTEA stated that consortium testing is not an option since the compliance tests developed by NHTSA are so specific that minor differences produce significantly different test results.
+(17) See Appendix A of the NTEA petition.
+(18) In a "pass through" of chassis manufacturer compliance, multi-stage manufacturers certify compliance by "passing through" the chassis manufacturer's certification.
+TITLE: Proposed Amendment 24.04.2006
+FMVSS 201 May/2006 PAGE: 7
+Licenced to: ATIEVA. Internal Use Only.
+Generated on 2015-06-24 13:40:51 by richardcolley@atieva.com
+ 
+COUNTRY :U.S.A. © InterRegs Ltd 2006 ORIGINAL :F.R. Vol. 71 No. 78 – 24.04.2006
+III. The Agency's New Approach to Vehicles Built in Two or More Stages and Altered Vehicles
+On February 14, 2005, the agency issued a final rule (February 2005 final rule) which enables more final stage manufacturers to take advantage of "pass-through" certification by requiring incomplete vehicle manufacturers to assume certification responsibility for the vehicle as further manufactured or completed by a final-stage manufacturer, to the extent that the vehicle is completed in accordance with the Incomplete Vehicle Document (IVD) described below. (19) Previously, this requirement only applied to chassis-cab manufacturers. The February 2005 final rule also created a new process under which manufacturers of vehicles built in two or more stages and alterers could obtain temporary exemptions from certain dynamic performance requirements. Finally, as a part of that rulemaking, we refined our analysis of the agency's authority to establish different requirements for vehicles built in two or more stages. The February 2005 final rule becomes effective September 1, 2006.
+The agency is in the process of considering a petition for reconsideration of the February 2005 final rule submitted by NTEA. (20) We expect to issue our response shortly.
+A. "Pass-Through" Certification
+Manufacturers of chassis-cabs are currently required to place on the incomplete vehicle a certification label stating under what conditions the chassis-cab has been certified. This allows what is commonly referred to as "pass-through" certification. As long as a subsequent manufacturer meets the conditions of the chassis-cab certification, that manufacturer may rely on this certification and pass it through when certifying the completed vehicle. However, the current certification regulations do not impose corresponding certification responsibilities on manufacturers of incomplete vehicles other than chassis-cabs (e.g., incomplete vans, cut-away chassis, stripped chassis and chassis-cowls).
+The February 2005 final rule extended these certification responsibilities to all types of incomplete vehicles. More specifically, beginning September 1, 2006, all incomplete vehicle manufacturers and intermediate manufacturers will have certification responsibilities for the vehicles as further manufactured or completed by final-stage manufacturers, to the extent that the vehicle is completed in accordance with the conditions specified in the IVD. (21)
+B. The Agency's Authority to Exclude Multi-Stage Vehicles From FMVSSs PROPOSAL In the February 2005 final rule, the agency reconsidered a previous position and concluded that it has authority to exclude multi-stage vehicles as a group from FMVSSs that are impracticable as they applied to these vehicles, or to subject these vehicles to different requirements. NHTSA concluded that it is appropriate to consider multi-stage vehicles as a vehicle type subject to consideration in the establishment of a regulation. For a detailed discussion of this issue, see 70 FR 7014 at 7421.
+(19) See 70 FR 7414, Docket No. 1999-5673-54.
+(20) See Docket No. NHTSA-1999-5673-55. See also comment concerning the NTEA petition for reconsideration submitted by General Motors (Docket No. NHTSA-1999-5673-56).
+(21) The IVD details, with varying degrees of specificity, the types of future manufacturing contemplated by the incomplete vehicle manufacturer and must provide, for each applicable safety standard, one of three statements that a subsequent manufacturer can rely on when certifying compliance of the vehicle, as finally manufactured, to some or all of all applicable FMVSSs. First, the IVD may state, with respect to a particular safety standard, that the vehicle, when completed, will conform to the standard if no alterations are made in identified components of the incomplete vehicle (this representation is most often made with respect to chassis-cabs, since a significant portion of the occupant compartment is already complete). Second, the IVD may provide a statement for a particular standard or set of standards of specific conditions of final manufacture under which the completed vehicle will conform to the standard (this statement is applicable in those instances in which the incomplete vehicle manufacturer has provided all or a portion of the equipment needed to comply with the standard, but subsequent manufacturing might be expected to change the vehicle such that it may not comply with the standard once finally manufactured). Third, the IVD may identify those standards for which no representation of conformity is made (for example, a manufacturer of a stripped chassis may be unable to make any representations about conformity to any crashworthiness standards if the incomplete vehicle does not contain an occupant compartment).
+TITLE: Proposed Amendment 24.04.2006 FMVSS 201 May/2006 PAGE: 8
+Licenced to: ATIEVA. Internal Use Only.
+Generated on 2015-06-24 13:40:51 by richardcolley@atieva.com
+ 
+COUNTRY :U.S.A. © InterRegs Ltd 2006 ORIGINAL :F.R. Vol. 71 No. 78 – 24.04.2006
+C. New Temporary Exemption Procedures Available to Final Stage Manufacturers and Alterers
+The February 2005 final rule established new procedures available to manufacturers of vehicles built in two or more stages and alterers for obtaining temporary exemptions from FMVSSs for which the agency specifies certain dynamic test procedures to determine compliance. The new procedures streamline the temporary exemption process by allowing an association or another party representing the interests of multiple manufacturers to bundle exemption petitions for a specific vehicle design, thus permitting a single explanation of the potential safety impact and good faith attempts to comply with the standards. The new exemption procedures specify that each manufacturer seeking an exemption is required to demonstrate financial hardship and good faith efforts to comply with applicable requirements. Exemptions based on financial hardship are available to companies manufacturing less than 10,000 vehicles per year, and any one exemption cannot apply to more than 2,500 vehicles per year.
+We note that, given the regulatory text specifying the new temporary exemption procedure, there is an issue whether that procedure is available for the head impact protection requirements at issue in the NTEA and RVIA petitions. That regulatory text reads as follows:
+* * *An alterer, intermediate or final-stage manufacturer, or industry trade association representing a group of alterers, intermediate and/or final-stage manufacturers may seek * * * a temporary exemption or a renewal of a temporary exemption from any performance requirement for which a Federal motor vehicle safety standard specifies the use of a dynamic crash test procedure to determine compliance. [Emphasis added]
+The procedure for the head impact protection requirements does not incorporate a full scale crash test except as an option for vehicles equipped with a dynamically deployable upper interior head protection system, which we do not believe is relevant to vehicles that are subject of the RVIA and NTEA FMVSS No. 201 petitions. Nevertheless, the upper interior requirements have a number of similarities to crash tests. For purposes of this rulemaking, we are proposing to extend the scope of the new temporary exemption procedures such that multistage manufacturers would be able to petition NHTSA for an exemption from FMH impact requirements.
+First, we observe that small volume multistage manufacturers are currently able to petition the agency for temporary exemptions from all FMVSSs, including FMH impact requirements, under the existing temporary exemption procedures currently in effect. Therefore, our proposal to expand the scope of the new temporary exemption procedures to include consideration of petitions related to FMH impact testing relates to the availability of the more streamlined procedures rather than to the possibility of a PROPOSAL manufacturer obtaining an exemption, in appropriate circumstances, at all.
+Second, we believe that, in limited circumstances, the difficulty or impracticability of testing a multitude of unique vehicle configurations, or otherwise obtaining an appropriate basis for certification, with the associated financial hardships, may extend to FMH impact requirements. Specifically, there is a considerable cost associated with FMH impact tests and vehicles are usually damaged during testing. Finally, we expect the number of instances in which an exemption will be needed to be very small because in order to petition for an exemption, the petitioner would have to show why FMH impact tests would cause substantial economic hardship. This showing must include detailed financial information and a complete description of the petitioner's good faith efforts to comply with the standards. Specifically, the petitioner would have to explain the inadequacy of IVD documents furnished by one or more incomplete vehicle manufacturers or by prior intermediate manufacturers pursuant to 49 CFR part 568. The petitioner would also have to show why generic or cooperative testing is impracticable. In addition, each petitioner is required to explain under § 555.13(c) why the requested temporary exemption would not unreasonably degrade safety.
+TITLE: Proposed Amendment 24.04.2006 FMVSS 201 May/2006 PAGE: 9
+Licenced to: ATIEVA. Internal Use Only.
+Generated on 2015-06-24 13:40:51 by richardcolley@atieva.com
+
+COUNTRY :U.S.A. © InterRegs Ltd 2006 ORIGINAL :F.R. Vol. 71 No. 78 – 24.04.2006
+We are not proposing specific regulatory text in this document. We note that this issue is also before the agency in the context of petitions for reconsideration of the February 2005 final rule establishing the new exemption procedures. We also note that depending on the agency's decision in that proceeding, this issue could become moot as to this rulemaking.
+IV. Response to the RVIA and NTEA Petitions for Rulemaking
+As discussed above, RVIA and NTEA petitioned the agency to permanently exclude certain altered vehicles and vehicles manufactured in two or more stages from all or a portion of the FMH impact requirements. We are granting the petition in part, by proposing to further limit the area that is subject to FMH impact requirements in ambulances, motor homes, and extending this limitation to other vehicles manufactured in two or more stages, as well as altered vehicles. We are also proposing to exclude vehicles delivered to a final stage manufacturer without an occupant compartment from the FMH impact requirements. We are denying all other parts of the petitions.
+A. Proposal To Limit the Occupant Compartment Area Subject to the FMH Impact Requirements in Ambulances, Motor Homes, and Other Vehicles Manufactured in Two or More Stages, and Altered Vehicles
+In ambulances and motor homes, the current standard excludes the occupant compartment area located more than 600 mm (24 inches) behind the seating reference point of the driver's seating position from the FMH impact requirements. For all other vehicles, the occupant compartment area located more than 600 mm (24 inches) behind the seating reference point of the rearmost designated seating position is similarly excluded from the FMH impact requirements.
+For altered vehicles and vehicles manufactured in two or more stages, including motor homes and ambulances, we are proposing to limit the area subject to the FMH impact requirements to not more than 300 mm (12 inches) behind the seating reference point of the driver's seating position. This would have the effect of limiting the FMH impact requirements to the front seating positions for these vehicles. We believe that the distance reduction to 300 mm (12 inches) is more representative of the distance between the seating reference point and the upper seat back/head restraint location where the occupant's head is located. Because of the front head restraint height requirements, we believe it is unlikely that the head of
+a seated occupant would come in contact with bulkheads, partitions, or overhead cabinets and storage shelves located further than 300 mm (12 inches) behind the seating reference point of the driver's PROPOSAL seating position. However, we are not granting the NTEA proposal to limit the seat position for this exclusion to the foremost design H-point (rather than the seating reference point) since we believe that a large portion of the seated driver's head would not be provided head protection in the areas of B-pillars and side rails between the A-pillar and the B-pillar.
+In developing this proposal, we have carefully considered both the safety benefits of the FMH requirements and practicability concerns relating to multistage vehicles. Based on previous estimates of the benefits of the FMVSS No. 201 final rule, and estimates from the National Automotive Sampling System, Crashworthiness Data System of the percent of injuries occurring to light truck occupants in multi-stage vehicles, the agency derived the following estimate of safety benefits. Requiring all multi-stage manufactured vehicles to meet FMVSS No. 201 would have annual benefits in the front seat of 16-22 fewer fatalities and 19-22 fewer AIS 2-5 injuries. However, in the rear seats, the benefits are estimated to be less than 1 fatality (which would round down to 0) and 1 AIS 2-5 injury. Thus, based on this analysis, excluding multi-stage vehicles from target points that could not be struck by the front row occupants would have a very small impact on safety.
+Given the small safety benefits associated with the FMH impact requirements for rear seating positions and practicability concerns, we have tentatively concluded that the FMH impact requirements should be limited to the front seating positions for these vehicles.
+TITLE: Proposed Amendment 24.04.2006 FMVSS 201 May/2006 PAGE: 10
+Licenced to: ATIEVA. Internal Use Only.
+Generated on 2015-06-24 13:40:51 by richardcolley@atieva.com
+
+COUNTRY :U.S.A. © InterRegs Ltd 2006 ORIGINAL :F.R. Vol. 71 No. 78 – 24.04.2006
+As indicated in its petition, many commercial vehicles manufactured by NTEA members feature bulkheads or partitions located less than 600 mm (24 inches) behind the rearmost designated seating position. Bulkheads or partitions are used in a variety of work vehicles that haul odd-shaped objects that cannot be readily secured in the cargo area. These structures protect the driver and passenger from loose or shifting or shifting cargo or work equipment. NTEA argued that the installation of bulkheads or partitions would likely require relocation of target areas originally certified by the incomplete vehicle manufacturer, thus significantly adding to the compliance burden.
+As discussed above, RVIA argued that most CVs and motor homes feature unique interior designs. Specifically, these vehicles include overhead cabinets, side valances, raised roof structures, and other unusual interior components. Among other things, RVIA stated that cooperative testing, suggested by NHTSA as a way to lessen compliance costs associated with FMH requirements, is not practicable because each RVIA member manufactures unique vehicles, each substantially different from its competitors. RVIA argued that cooperative testing would eliminate interior customization, which would in turn result in a loss of market for CVs and motor homes.
+We believe our proposal to effectively limit the FMH impact requirements to the front seating positions for these vehicles would provide appropriate relief to the industries represented by NTEA and RVIA, while continuing to meet the need for safety. As discussed above, the benefits related to rear seating positions are very small.
+We note that NTEA and RVIA members can ordinarily purchase incomplete vehicles that are already designed to meet the FMH impact requirements for the front seating positions. Under our proposal, final stage manufacturers would ordinarily be able to take advantage of pass-through certification by not changing the upper interior portions of the front of the vehicle.
+We believe the requirements are justified by safety. As indicated above, we estimate that requiring all multi-stage manufactured vehicles to meet FMVSS No. 201 would have annual benefits in the front seat of 16-22 fewer fatalities and 19-22 fewer AIS 2-5 injuries. Given the safety significance of these requirements, we believe, in situations where final stage manufacturers use incomplete vehicles that have occupant compartments that either are designed to meet the FMH impact requirements for the front seating positions or can be purchased in a configuration that is designed to meet those requirements, it would be inconsistent with the need for safety to generally exclude the vehicles from these head impact protection requirements. We also note that while final stage manufacturers will be able to submit PROPOSAL petitions under subpart B of part 555, it is unlikely in this type of situation that the agency would find it in the public interest to exclude final stage manufacturers from the front seat head impact protection requirements of FMVSS No. 201 to facilitate customization of the upper interior portions of the front of the vehicle.
+Our proposal would, however, facilitate customization of the rear of vehicles, including conversion vans, where there would be no significant impact on safety. Moreover, we continue to believe that final stage manufacturers can use cooperative testing to determine the types of changes that can be made while enabling vehicles to continue to comply with the FMH requirements, including ones related to use of overhead cabinets, raised roof structures, and so forth. Thus, while customization of the front portion of occupant compartments will be more difficult and may be more limited, it will by no means be eliminated.
+B. Proposal To Exclude Vehicles Manufactured in Two or More Stages, Other Than Motor Homes, Chassis Cabs, Cutaway Vans, and Other Incomplete Vehicles With a Furnished Front Compartment, From FMH Impact Requirements
+TITLE: Proposed Amendment 24.04.2006 FMVSS 201 May/2006 PAGE: 11
+Licenced to: ATIEVA. Internal Use Only.
+Generated on 2015-06-24 13:40:51 by richardcolley@atieva.com
+
+COUNTRY :U.S.A. © InterRegs Ltd 2006 ORIGINAL :F.R. Vol. 71 No. 78 – 24.04.2006
+We tentatively conclude that a narrow group of multi-stage vehicles contains physical attributes that make compliance with the FMH impact requirements impracticable. These are vehicles built on a "stripped" chassis; i.e., an incomplete vehicle without an occupant compartment. The manufacturers of these vehicles would not be able to rely on pass-through certification. This is because these vehicles are highly customized and produced in quantities that would make compliance prohibitively expensive. Further, these vehicles are often equipped with partitions and bulkheads that present a further impediment to the compliance efforts. We note that for vehicles manufactured from stripped chassis, the cost of meeting the FMH impact requirements could be substantial because the alternative means of compliance such as pass-through certification are not available.
+In the context of serving niche markets demanding specialized work vehicles that are not delivered to the final stage manufacturers with an intact occupant compartment (unlike for example, chassis cabs and cut-away vans), we believe that the physical limitations of these vehicles can adversely affect the ability of multi-stage manufacturers to design safety performance into their completed vehicles. Accordingly, we believe it appropriate to exclude this narrow group of vehicles from FMH impact testing.
+C. Question Regarding Multistage Vehicles With Raised Roofs
+Certain multistage vehicles are manufactured with raised roofs. The final-stage manufacturer cuts out a portion of the original roof and attaches a raised roof, typically made of fiberglass that may also have metal inserts imbedded for strength. The manufacturers of these vehicles may not be able to take advantage of pass through certification because raising the roof affects the location of certain targets subject to FMH impact testing. The raised roof has a different shape than the van portion of an incomplete vehicle. Therefore, the reference points located on the exterior, i.e., APR and BPR, will probably not be the same and the FMH targets inside the vehicle may be in different locations from those that the incomplete vehicle manufacturer stated could be certified as pass through. In addition, the portion of the roof over the front seating area would be affected when the final-stage manufacturer installs a headliner and/or padding in a vehicle with a raised roof or a non-raised roof.
+We believe that the original targets in raised roof vehicles, e.g., those along the pillars and side rails, may be as appropriate for safety as the targets that would be calculated for the new configuration. We are therefore considering permitting manufacturers to meet requirements for either the target locations as calculated for the original configuration or changed configuration. This would also make compliance easier for final stage manufacturers. We are asking for comment on this approach to targets in vehicles PROPOSAL with raised roofs.
+D. Additional Relief Is Not Warranted
+After carefully considering RVIA's and NTEA's petitions, we have decided not to propose a broader exclusion from the FMH requirements for front seat areas of conversion vans, motor homes, ambulances, fire fighting, rescue, emergency, law enforcement, and altered vehicles. As explained above, we believe that the head impact protection requirements provide important safety benefits in front seating positions of vehicles manufactured in two or more stages, and our proposal would provide appropriate relief to the industries represented by NTEA and RVIA, while continuing to meet the need for safety.
+RVIA and NTEA did not provide any convincing reasons why occupants of its members' vehicles would not benefit from the same level of protection as required for other vehicles. Conversion vans, light duty motor homes, and other altered vehicles are typically driven by regular passenger vehicle drivers who require the same type of occupant protection as other passenger vehicle drivers. Furthermore, the petitioners did not explain why the occupants of ambulances, fire fighting, rescue, emergency, and law enforcement vehicles that may additionally travel at high rates of speed through unconventional traffic paths would not benefit from countermeasures designed to reduce head impacts in the event of a collision.
+TITLE:
+Proposed Amendment 24.04.2006 FMVSS 201 May/2006 PAGE: 12
+Licenced to: ATIEVA. Internal Use Only.
+Generated on 2015-06-24 13:40:51 by richardcolley@atieva.com
+
+COUNTRY :U.S.A. © InterRegs Ltd 2006 ORIGINAL :F.R. Vol. 71 No. 78 – 24.04.2006
+We note that the petitioners are also able to purchase incomplete vehicles that are already designed to meet the FMH impact requirements for the front seating positions. Under our proposal, the rear portions of multi-stage and altered vehicles, where the majority of vehicle customization is performed, would be excluded from the FMH requirements. Furthermore, final stage manufacturers would ordinarily be able to take advantage of pass-through certification by not changing the upper interior portions of the front of the vehicle. Accordingly, compliance costs and test burdens, (i.e., the petitioners' main concerns), would be substantially reduced when certifying these vehicles.
+We further believe that the compliance costs provided by the RVIA and NTEA in their petition were overstated. For example, the compliance test cost estimates provided by RVIA were not averaged over the years of vehicle production. Instead, the costs were reflective of only the first production year. RVIA did not provide the actual production cycles for its various vehicles, so its cost estimates were based on
+a one-year production cycle. Typically, when vehicle compliance costs are amortized over the vehicle production years, the costs are a lot smaller, as evidenced by the rulemaking involving small school buses where the estimated compliance cost per multi-stage vehicle was less than $1,000 in 1993 economics. (22)
+NTEA estimated that compliance with the FMH requirements would cost its industry a minimum of $160 million and 64 years to comply. However, this was based on the availability of two test laboratories that conducted FMH testing in 2001 and no pass-through certification was applied. We believe that laboratory experience has improved greatly since that time, and the exclusions that we are proposing in this notice will have a large impact on reducing the actual compliance costs.
+RVIA and NTEA did not provide any convincing reasons why it is not generally practicable for these vehicles to comply. With respect to conversion vans and motor homes, the agency believes that there are alternative locations for the installation of hardwood cabinetry, and audio/video entertainment systems (other than mounted over the heads of front seat occupants). There are also other more compliant materials than hardwood that could be utilized by conversion van and motor home customization specialists.
+As to fire fighting and rescue vehicles (with a gross vehicle weight rating of 4,536 kg or less), these vehicles are basically multi-stage work vehicles furnished with special equipment and tools designed exclusively for the purpose of rescuing people in emergency situations. We are proposing to exclude the rear compartment area of these vehicles from FMH target requirements, as we are for other multistage. PROPOSAL We do not believe there is any reason to treat the front occupant compartment of these vehicles differently from other multistage vehicles (such as utility company trucks, contractor vehicles, snow removal vehicles, etc). Thus, we believe that no additional relief is necessary.
+The agency has also previously considered and denied the exclusion of police cars from the FMH requirements. (23) Our position on that issue has not changed substantially. Previously, the NTEA requested that police cars be excluded since these cars have special equipment, including gun racks and spotlight control mounted on the upper roof interior, and a bulkhead behind the front seats. However, the agency believes that interior components, such as gun racks and spotlight controls do not necessarily have to be mounted on the vehicle roof interior surface in the vicinity of the driver's head, and can alternatively be accommodated with padding. Furthermore, we are aware that there are available equipment packages (such as remote-controlled spotlights and A-pillar mounted spotlights below the AP3 target location) that would facilitate compliance with the FMH requirements.
+(22) See 62 FR 16718, April 8, 1997.
+(23) See id.
+ TITLE: Proposed Amendment
+FMVSS 201 May/2006
+Licenced to: ATIEVA. Internal Use Only.
+Generated on 2015-06-24 13:40:51 by richardcolley@atieva.com
+24.04.2006 PAGE: 13
+
+COUNTRY :U.S.A. © InterRegs Ltd 2006 ORIGINAL :F.R. Vol. 71 No. 78 – 24.04.2006
+VII. Effective Date
+We are proposing to delay the effective date of the FMH impact requirements as they apply to final stage manufacturers and alterers from September 1, 2006 until September 1, 2008.
+VIII. Submission of Comments
+A. How Do I Prepare and Submit Comments?
+Your comments must be written and in English. To ensure that your comments are filed correctly in the Docket, please include the docket number of this document in your comments.
+Your comments must not be more than 15 pages long. (24) NHTSA established this limit to encourage you to write your primary comments in a concise fashion. However, you may attach necessary additional documents to your comments. There is no limit on the length of the attachments.
+Please submit two copies of your comments, including the attachments, to Docket Management at the address given above under ADDRESSES. You may also submit your comments to the docket electronically by logging onto the Docket Management System (DMS) Web site at http://dms.dot.gov. Click on "Help & Information" or "Help/
+Info" to obtain instructions for filing your comments electronically. Please note, if you are submitting comments electronically as a PDF (Adobe) file, we ask that the documents submitted be scanned using Optical Character Recognition (OCR) process, thus allowing the agency to search and copy certain portions of your submissions. (25)
+How Can I Be Sure That My Comments Were Received?
+If you wish Docket Management to notify you upon its receipt of your comments, enclose a self-addressed, stamped postcard in the envelope containing your comments. Upon receiving your comments, Docket Management will return the postcard by mail.
+How Do I Submit Confidential Business Information? PROPOSAL If you wish to submit any information under a claim of confidentiality, you should submit three copies of your complete submission, including the information you claim to be confidential business information, to the Chief Counsel, NHTSA, at the address given above under FOR FURTHER INFORMATION CONTACT. In addition, you should submit two copies, from which you have deleted the claimed confidential business information, to Docket Management at the address given above under ADDRESSES. When you send a comment containing information claimed to be confidential business information, you should include a cover letter setting forth the information specified in NHTSA's confidential business information regulation (49 CFR part 512).
+Will the Agency Consider Late Comments?
+NHTSA will consider all comments that Docket Management receives before the close of business on the comment closing date indicated above under DATES. To the extent possible, the agency will also consider comments that Docket Management receives after that date. If Docket Management receives a comment too late for the agency to consider it in developing a final rule (assuming that one is issued), the agency will consider that comment as an informal suggestion for future rulemaking action.
+(24) 49 CFR 553.21.
+(25) Optical character recognition (OCR) is the process of converting an image of text, such as a scanned paper document or electronic fax file, into computer-editable text.
+TITLE: Proposed Amendment 24.04.2006
+FMVSS 201 May/2006 PAGE: 14
+Licenced to: ATIEVA. Internal Use Only.
+Generated on 2015-06-24 13:40:51 by richardcolley@atieva.com
+ 
+COUNTRY :U.S.A. © InterRegs Ltd 2006 ORIGINAL :F.R. Vol. 71 No. 78 – 24.04.2006
+How Can I Read the Comments Submitted by Other People?
+You may read the comments received by Docket Management at the address given above under ADDRESSES. The hours of the Docket are indicated above in the same location.
+You may also see the comments on the Internet. To read the comments on the Internet, take the following steps:
+1. Go to the Docket Management System (DMS) Web page of the Department of Transportation http://dms.dot.gov.
+2. On that page, click on "search."
+3. On the next page http://dms.dot.gov/search, type in the four-digit docket number shown at
+the beginning of this document. Example: If the docket number were "NHTSA-1998-1234," you would type "1234." After typing the docket number, click on "search."
+4. On the next page, which contains docket summary information for the docket you selected, click on the desired comments. You may download the comments. Although the comments are imaged documents, instead of word processing documents, the "pdf" versions of the documents are word searchable.
+Please note that even after the comment closing date, NHTSA will continue to file relevant information in the Docket as it becomes available. Further, some people may submit late comments. Accordingly, the agency recommends that you periodically check the Docket for new material.
+VIII. Regulatory Analyses and Notices
+A. Executive Order 12866 and DOT Regulatory Policies and Procedures
+Executive Order 12866, "Regulatory Planning and Review" (58 FR 51735, October 4, 1993), provides for making determinations whether a regulatory action is "significant" and therefore subject to Office of Management and Budget (OMB) review and to the requirements of the Executive Order. The Order defines a "significant regulatory action" as one that is likely to result in a rule that may: PROPOSAL (1) Have an annual effect on the economy of $100 million or more or adversely affect in a material way the economy, a sector of the economy, productivity, competition, jobs, the environment, public health or safety, or State, local, or Tribal governments or communities;
+(2) Create a serious inconsistency or otherwise interfere with an action taken or planned by another agency;
+(3) Materially alter the budgetary impact of entitlements, grants, user fees, or loan programs or the rights and obligations of recipients thereof; or
+TITLE: Proposed Amendment 24.04.2006 FMVSS 201 May/2006 PAGE: 15
+Licenced to: ATIEVA. Internal Use Only.
+Generated on 2015-06-24 13:40:51 by richardcolley@atieva.com
+
+COUNTRY :U.S.A. © InterRegs Ltd 2006 ORIGINAL :F.R. Vol. 71 No. 78 – 24.04.2006
+(4)
+Raise novel legal or policy issues arising out of legal mandates, the President's priorities, or the principles set forth in the Executive Order.
+This proposal was not reviewed under Executive Order 12866. It is not significant within the meaning of the DOT Regulatory Policies and Procedures. If adopted, it would not impose any new burdens on manufacturers of vehicles built in two or more stages or vehicles alterers. Further, if adopted, this proposal would limit certain existing requirements as they apply to multistage vehicles, and exclude a narrow group of multi-stage vehicles manufactured from chassis without occupant compartments from the same requirements. The agency believes that this impact is so minimal as to not warrant the preparation of a full regulatory evaluation.
+B. Regulatory Flexibility Act
+The Regulatory Flexibility Act of 1980 (5 U.S.C. 601 et seq.) requires agencies to evaluate the potential effects of their proposed rules on small businesses, small organizations and small governmental jurisdictions. I have considered the possible effects of this rulemaking action under the Regulatory Flexibility Act and certify that it would not have a significant economic impact on a substantial number of small entities.
+Under 13 CFR 121.201, the Small Business Administration (SBA) defines small business (for the purposes of receiving SBA assistance) as a business with less than 750 employees. Most of the manufacturers of recreation vehicles, conversion vans, and specialized work trucks are small businesses that alter completed vehicles or manufacture vehicles in two or more stages. While the number of these small businesses potentially affected by this proposal is substantial, the economic impact upon these entities will not be significant because this document proposes to limit certain existing requirements as they apply to multistage vehicles, and exclude a narrow group of multi-stage vehicles manufactured from chassis without occupant compartments from the same requirements. For other multistage manufacturers, recent agency action described above will enable the manufacturers to more fully utilize pass-through certification.
+C. National Environmental Policy Act
+NHTSA has analyzed this proposal for the purposes of the National Environmental Policy Act. The agency has determined that implementation of this action would not have any significant impact on the PROPOSAL quality of the human environment. Accordingly, no environmental assessment is required.
+D. Executive Order 13132 (Federalism)
+The agency has analyzed this rulemaking in accordance with the principles and criteria contained in Executive Order 13132 and has determined that it does not have sufficient federal implications to warrant consultation with State and local officials or the preparation of a federalism summary impact statement. The proposal would not have any substantial impact on the States, or on the current Federal-State relationship, or on the current distribution of power and responsibilities among the various local officials.
+E. Unfunded Mandates Act
+The Unfunded Mandates Reform Act of 1995 requires agencies to prepare a written assessment of the costs, benefits and other effects of proposed or final rules that include a Federal mandate likely to result in the expenditure by State, local or tribal governments, in the aggregate, or by the private sector, of more than $100 million annually ($120.7 million as adjusted annually for inflation with base year of 1995). The assessment may be combined with other assessments, as it is here.
+TITLE: Proposed Amendment 24.04.2006 FMVSS 201 May/2006 PAGE: 16
+Licenced to: ATIEVA. Internal Use Only.
+Generated on 2015-06-24 13:40:51 by richardcolley@atieva.com
+
+COUNTRY :U.S.A. © InterRegs Ltd 2006 ORIGINAL :F.R. Vol. 71 No. 78 – 24.04.2006
+This proposal is not likely to result in expenditures by State, local or tribal governments or automobile manufacturers and/or their suppliers of more than $120.7 million annually. If adopted, it would not impose any new burdens on manufacturers of vehicles built in two or more stages or vehicles alterers. Further, if adopted, this proposal would limit certain existing requirements as they apply to multistage vehicles, and exclude a narrow group of multi-stage vehicles manufactured from chassis without occupant compartments from the same requirements.
+F. Executive Order 12988 (Civil Justice Reform)
+Pursuant to Executive Order 12988, "Civil Justice Reform", (26) the agency has considered whether this proposed rule would have any retroactive effect. We conclude that it would not have such an effect. Under 49 U.S.C. 30103, whenever a Federal motor vehicle safety standard is in effect, a State may not adopt or maintain a safety standard applicable to the same aspect of performance which is not identical to the Federal standard, except to the extent that the State requirement imposes a higher level of performance and applies only to vehicles procured for the State's use. 49 U.S.C. 30161 sets forth a procedure for judicial review of final rules establishing, amending, or revoking Federal motor vehicle safety standards. That section does not require submission of a petition for reconsideration or other administrative proceedings before parties may file a suit in court.
+G. Paperwork Reduction Act
+There are no information collection requirements in this proposal.
+H. Regulation Identifier Number (RIN)
+The Department of Transportation assigns a regulation identifier number (RIN) to each regulatory action listed in the Unified Agenda of Federal Regulations. The Regulatory Information Service Center publishes the Unified Agenda in April and October of each year. You may use the RIN contained in the heading at the beginning of this document to find this action in the Unified Agenda.
+I. Plain Language
+• Executive Order 12866 requires each agency to write all rules in plain language. Application of the principles of plain language includes consideration of the following questions: PROPOSAL
+• Have we organized the material to suit the public's needs?
+• Are the requirements in the rule clearly stated?
+• Does the rule contain technical language or jargon that isn't clear?
+• Would a different format (grouping and order of sections, use of headings, paragraphing) make the rule easier to understand?
+• Would more (but shorter) sections be better?
+• Could we improve clarity by adding tables, lists, or diagrams?
+(26) See 61 FR 4729, February 7, 1996.
+TITLE: Proposed Amendment
+24.04.2006 PAGE: 17 FMVSS 201 May/2006
+Licenced to: ATIEVA. Internal Use Only.
+Generated on 2015-06-24 13:40:51 by richardcolley@atieva.com
+ 
+COUNTRY :U.S.A. © InterRegs Ltd 2006 ORIGINAL :F.R. Vol. 71 No. 78 – 24.04.2006
+• What else could we do to make the rule easier to understand?
+• If you have any responses to these questions, please include them in your comments on this proposal.
+J. Privacy Act
+Anyone is able to search the electronic form of all comments received into any of our dockets by the name of the individual submitting the comment (or signing the comment, if submitted on behalf of an association, business, labor union, etc.). You may review DOT's complete Privacy Act Statement in the Federal Register published on April 11, 2000 (Volume 65, Number 70; Pages 19477-78) or you may visit http://dms.dot.gov.
+IX. Proposed Regulatory Text
+List of Subjects in 49 CFR Part 571
+Motor vehicle safety, Reporting and recordkeeping requirements, Tires.
+In consideration of the foregoing, NHTSA proposes to amend chapter V of title 49 of the Code of Federal Regulations by amending 49 CFR 571.201 to read as follows:
+PART 571−[AMENDED]
+1. The authority citation of part 571 would continue to read as follows:
+Authority: 49 U.S.C. 322, 2011, 30115, 30166 and 30117; delegation of authority at 49 CFR 1.50.
+2. Section 571.201 would be amended by revising S6.1.4, S6.3(b) and S6.3(c) to read as set forth below:
+§ 571.201 Standard No. 201; Occupant protection in interior impact.
+***** PROPOSAL S6.1.4 Phase-in Schedule #4 A final stage manufacturer or alterer may, at its option, comply with the requirements set forth in S6.1.4.1 and S6.1.4.2.
+S6.1.4.1 Vehicles manufactured on or after September 1, 1998 and before September 1, 2008 are not required to comply with the requirements specified in S7.
+S6.1.4.2 Vehicles manufactured on or after September 1, 2008 shall comply with the requirements specified in S7.
+*****
+TITLE: Proposed Amendment
+FMVSS 201 May/2006
+Licenced to: ATIEVA. Internal Use Only.
+Generated on 2015-06-24 13:40:51 by richardcolley@atieva.com
+24.04.2006 PAGE: 18
+
+COUNTRY :U.S.A. © InterRegs Ltd 2006 ORIGINAL :F.R. Vol. 71 No. 78 – 24.04.2006
+S6.3* * *
+(b) Any target located rearward of a vertical plane 600 mm behind the seating reference point of the rearmost designated seating position. For altered vehicles and vehicles built in two or more stages, including ambulances and motor homes, any target located rearward of a vertical plane 300 mm behind the seating reference point of the driver's designated seating position.
+(c) Any target in a walk-in van-type vehicle or a vehicle manufactured in two or more stages that is delivered to a final stage manufacturer without an occupant compartment.
+Note: Motor homes, ambulances, and other vehicles manufactured using a chassis cab, a cut-away van, or any other incomplete vehicle delivered to a final stage manufacturer with a furnished front compartment are not excluded under this paragraph.
+*****
+Issued on April 18, 2006.
+Ronald L. Medford,
+Senior Associate Administrator for Vehicle Safety.
+[FR Doc. E6-6024 Filed 4−21−06; 8:45 am]
+BILLING CODE 4910−59−P PROPOSAL
+TITLE: Proposed Amendment
+FMVSS 201 May/2006
+Licenced to: ATIEVA. Internal Use Only.
+Generated on 2015-06-24 13:40:51 by richardcolley@atieva.com
+24.04.2006 PAGE: 19
+
+RT
+COUNTRY :U.S.A. © InterRegs Ltd 2011 ORIGINAL :F.R. Vol. 76 No. 228 − 28.11.2011
+DEPARTMENT OF TRANSPORTATION
+National Highway Traffic Safety Administration
+49 CFR Part 571 [Docket No. NHTSA-2011-0168] Technical Report Evaluating the 1999-2003 Head Impact Upgrade of FMVSS No. 201, Upper- Interior Components.
+AGENCY: National Highway Traffic Safety Administration (NHTSA), Department of Transportation (DOT). ACTION: Request for comments on technical report.
+SUMMARY: This notice announces NHTSA’s publication of a Technical Report reviewing and evaluating its existing Safety Standard 201, Occupant Protection in Interior Impact. The report’s title is: Evaluation of the 1999–2003 Head Impact Upgrade of FMVSS No. 201–Upper-Interior Components: Effectiveness of Energy-Absorbing Materials Without Head-Protection Air Bags.
+DATES: Comments must be received no later than March 27, 2012.
+ADDRESSES: Report: The technical report is available on the Internet for viewing in PDF format at http://www-nrd.nhtsa.dot.gov/Pubs/811538.PDF. You may obtain a copy of the report free of charge by sending a self-addressed mailing label to Charles J. Kahane (NVS–431), National Highway Traffic Safety Administration, Room W53–312, 1200 New Jersey Avenue SE., Washington, DC 20590.
+Comments: You may submit comments [identified by Docket Number NHTSA–2011–0168] by any of the following methods:
+● Federal eRulemaking Portal: Go to http://www.regulations.gov. Follow the online instructions for submitting comments. EQUES
+● Fax: 1–(202) 493–2251.
+● Mail: Docket Management Facility, M–30, U.S. Department of Transportation, West Building, Ground Floor, Rm. W12–140, 1200 New Jersey Avenue SE., Washington, DC 20590.
+● Hand Delivery: West Building Ground Floor, Room W12–140, 1200 New Jersey Avenue SE., between 9 a.m. and 5 p.m. Eastern Time, Monday through Friday, except Federal holidays.
+You may call Docket Management at (202) 366–9826.
+Instructions: For detailed instructions on submitting comments, see the Procedural Matters section of this document. Note that all comments received will be posted without change to http://www.regulations.gov, including any personal information provided.
+FOR FURTHER INFORMATION CONTACT: Charles J. Kahane, Chief, Evaluation Division, NVS–431, National Center for Statistics and Analysis, National Highway Traffic Safety Administration, Room W53–312, 1200 New Jersey Avenue SE., Washington, DC 20590. Telephone: (202) 366–2560. Email: chuck.kahane@dot.gov.
+For information about NHTSA’s evaluations of the effectiveness of existing regulations and programs: You may see a list of published evaluation reports at http://www-nrd.nhtsa.dot.gov/cats/listpublications.aspx?Id=226&ShowBy=Category and if you click on any report you will be able to view it in PDF format.
+TITLE: Request for Comments 28.11.2011 49 CFR FMVSS 201 Dec/2011 PAGE: 1
+Licenced to: ATIEVA. Internal Use Only.
+Generated on 2015-06-24 13:40:51 by richardcolley@atieva.com
+
+RT
+COUNTRY :U.S.A. © InterRegs Ltd 2011 ORIGINAL :F.R. Vol. 76 No. 228 − 28.11.2011
+SUPPLEMENTARY INFORMATION: Federal Motor Vehicle Safety Standard (FMVSS)
+No. 201–Occupant Protection in Interior Impact–was upgraded in 1995, with a 1998–2003 phase-in, to
+reduce occupants’ risk of head injury from contact with a vehicle’s upper interior, including its pillars, roof
+headers and side rails, and the upper roof. Initially, energy-absorbing materials alone were used to meet
+the standard. NHTSA statistically analyzed the effect of these materials on head injuries due to upper-interior contact in cars and light trucks in the Crashworthiness Data System of the National Automotive Sampling System for 1995–2009 and the effect on head injuries in fatal crashes in the
+Fatality Analysis Reporting System–Multiple Cause of Death files for 1999–2007. FMVSS No. 201
+without head-protection air bags reduces AIS 4-to-6 head injuries due to contact with upper-interior components by an estimated 24 percent (95% confidence bounds, 11 to 35%), based on the average of
+the analysis results for the two databases. That is equivalent to a 4.3-percent reduction of overall fatality
+risk (confidence bounds 2.0 to 6.2%). When all vehicles on the road meet FMVSS No. 201, it will save
+an estimated 1,087 to 1,329 lives per year. At a cost of $25.52 (in 2010 dollars) over the life of a vehicle,
+that amounts to an annual cost, depending on new-vehicle sales, ranging from $301 to $424 million for certifying all new vehicles to FMVSS No. 201. It is a very cost-effective regulation, costing less than
+$1 million per life saved.
+NHTSA issued previous evaluation reports on FMVSS No. 201 in 2006 (72 FR 9074, Docket
+No. NHTSA–2007–27371, report available at http://wwwnrd.nhtsa.dot.gov/Pubs/810739.PDF) and in
+1988 (53 FR 2516, report available at http://www-nrd.nhtsa.dot.gov/Pubs/807203.PDF).
+Procedural Matters
+How can I influence NHTSA’s thinking on this subject?
+NHTSA welcomes public review of the technical report. NHTSA will submit to the Docket a response to
+the comments and, if appropriate, will supplement or revise the report.
+How do I prepare and submit comments?
+Your comments must be written and in English. To ensure that your comments are correctly filed in the
+Docket, please include the Docket number of this document (NHTSA–2011–0168) in your comments. EQUES Your primary comments must not be more than 15 pages long (49 CFR 553.21). However, you may
+attach additional documents to your primary comments. There is no limit on the length of the attachments.
+Anyone is able to search the electronic form of all comments received into any of our dockets by the
+name of the individual submitting the comment (or signing the comment, if submitted on behalf of an association, business, labor union, etc.). You may review DOT’s complete Privacy Act Statement in the
+Federal Register published on April 11, 2000 (65 FR 19477) or you may visit http://www.regulations.gov.
+Please send two paper copies of your comments to Docket Management, fax them, or use the Federal eRulemaking Portal. The mailing address is U.S. Department of Transportation, Docket Management
+Facility, M–30, West Building, Ground Floor, Rm. W12–140, 1200 New Jersey Avenue SE., Washington,
+DC 20590. The fax number is 1–(202) 493–2251. To use the Federal eRulemaking Portal, go to http://www.regulations.gov and follow the online instructions for submitting comments.
+We also request, but do not require you to send a copy to Charles J. Kahane, Chief, Evaluation Division, NVS–431, National Highway Traffic Safety Administration, Room W53–312, 1200 New Jersey Avenue
+SE., Washington, DC 20590 (or email them to chuck.kahane@dot.gov). He can check if your comments
+have been received at the Docket and he can expedite their review by NHTSA.
+TITLE: Request for Comments 28.11.2011 49 CFR FMVSS 201 Dec/2011 PAGE: 2
+Licenced to: ATIEVA. Internal Use Only.
+Generated on 2015-06-24 13:40:51 by richardcolley@atieva.com
+
+RT
+COUNTRY :U.S.A. © InterRegs Ltd 2011 ORIGINAL :F.R. Vol. 76 No. 228 − 28.11.2011
+How can I be sure that my comments were received?
+If you wish Docket Management to notify you upon its receipt of your comments, enclose a self-addressed, stamped postcard in the envelope containing your comments. Upon receiving your comments, Docket Management will return the postcard by mail.
+How do I submit confidential business information?
+If you wish to submit any information under a claim of confidentiality, send three copies of your complete submission, including the information you claim to be confidential business information, to the Chief Counsel, National Highway Traffic Safety Administration, 1200 New Jersey Avenue SE., Washington,
+DC 20590. Include a cover letter supplying the information specified in our confidential business information regulation (49 CFR Part 512).
+In addition, send two copies from which you have deleted the claimed confidential business information
+to U.S. Department of Transportation, Docket Management Facility, M–30, West Building, Ground Floor,
+Rm. W12–140, 1200 New Jersey Avenue SE., Washington, DC 20590, or submit them via the Federal eRulemaking Portal.
+Will the agency consider late comments?
+In our response, we will consider all comments that Docket Management receives before the close of business on the comment closing date indicated above under DATES. To the extent possible, we will
+also consider comments that Docket Management receives after that date.
+Please note that even after the comment closing date, we will continue to file relevant information in the
+Docket as it becomes available. Further, some people may submit late comments. Accordingly, we recommend that you periodically check the Docket for new material.
+How can I read the comments submitted by other people?
+You may read the materials placed in the docket for this document (e.g., the comments submitted in EQUES response to this document by other interested persons) at any time by going to http://www.regulations.gov. Follow the online instructions for accessing the dockets. You may also read
+the materials at the Docket Management Facility by going to the street address given above under ADDRESSES. The Docket Management Facility is open between 9 a.m. and 5 p.m. Eastern Time,
+Monday through Friday, except Federal holidays.
+Authority: 49 U.S.C. 30111, 30168; delegation of authority at 49 CFR 1.50 and 501.8.
+James F. Simons,
+Director, Office of Regulatory Analysis and Evaluation.
+[FR Doc. 2011–30560 Filed 11–25–11; 8:45 am]
+TITLE: Request for Comments 28.11.2011 49 CFR FMVSS 201 Dec/2011 PAGE: 3
+Licenced to: ATIEVA. Internal Use Only.
+Generated on 2015-06-24 13:40:51 by richardcolley@atieva.com

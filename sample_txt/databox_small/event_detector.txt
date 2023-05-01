@@ -1,0 +1,419 @@
+Data-Science Event Detection - Version 1.5.2
+Table of Contents
+•	Table of Contents
+•	Concept Description
+•	A simple event example
+•	Command Line Options 
+o	--complex-event-config
+o	--preload-data
+o	--update-metadata
+o	--send-email
+o	--update-jira
+o	--vins VINS --dates DATES
+o	--no-table-update
+o	--verbose
+o	--append-data
+o	--load-from-s3
+o	--file-loader-start
+o	--file-loader-end
+o	--file-loader-look-back
+•	Input and Output Configuration 
+o	Vehicle Signal Input
+o	Event Output Table
+o	Additional Output Table
+•	Main Detector Configuration 
+o	Input Signal Configuration 
+	New Configuration 
+	time-scale
+	distinct
+	ffill
+	addtl-sql-filter
+	lags
+	catalog
+	original_signals_table, 1hz_signals_table
+	Emulated Milliseconds Configuration
+o	Bitfield Decoding 
+	Explanation:
+o	Input Events Configuration
+•	Event Trigger Configuration 
+o	Event Triggers 
+	Simple expressions related to columns:
+	Examples:
+	Proposed additional operators:
+	Expressions related to present Events at a timestamp:
+	Negation
+	Logical Expression
+o	DURATION Filter and Other Filters
+•	Complex Event Examples 
+o	Example for emulated milliseconds:
+Concept Description
+Every team has very specific needs for events that they want to monitor (and that we later want to predict). Instead of implementing a custom event detection script for each team, it would be more efficient to implement a configurable event detection script once and then differentiate the individual team reports (generated event tables) through configuration files. 
+This concept has already been implemented for simple on/off signals in the SimpleTriggerEventDetection project. In practice, however, there are lots of other more complex events that do not directly correlate with a single trigger signal. While there are, indeed, very complex events that require their own virtual sensor implementation, most events have a relative simple complexity that can be expressed as logical relations between events and signals. 
+The goal of this project is to define a simple configuration syntax to express the most important logical combinations of signals and events. This allows the use of a single, well-tested source base that can be kept unchanged when individual event descriptions are modified or added via configuration files only.
+A simple event example
+ 
+The above image illustrates roughly how a straightforward trigger (voltage > 0 mV AND current > 5 mA) might work in practice. The top left table represents the telemetry input, which is then pivoted into the top right intermediate table. Note the NULLs due to some timestamps not lining up in the original data. The condition is evaluated for each row in the intermediate table. Rows are then potentially combined into longer events if the “window size” (i.e. the amount of time which elapses between consecutive rows where the condition is “True”) is sufficiently long. We consider single-row events to be “instantaneous”, i.e. to have a duration of 0 time units.
+Command Line Options
+For the full list of options please run the script with command line argument -h.
+--complex-event-config
+Specifies the yaml configuration file for the event detection run.
+--preload-data
+If provided, then the initial query for the input signals themselves will be cached with df.cache() on the executing device. In some cases this can speed up processing slightly, but in others this can lead to a severe bottleneck, as all data has to be moved to the driver node. 
+--update-metadata
+Updates the metadata of the output table when data has ben written. This metadata (see below) is used to give external applications (such as the labelling web interface) additional information how to interpret individual rows. This flag is only needed if you want to provide event data through the web interface.
+--send-email
+Sends an email to the specified email addresses, with the detected events if at least on event has been found.
+--update-jira
+This will update the specified Jira tickets with information about detected events.
+--vins VINS
+--dates DATES
+The vins and dates to run the event detection for. The syntax follows the VehicleInputDatahandler schema.
+--no-table-update
+This will prevent that any event data is actually written into a table. Instead, the script is run and the results are printed to the logger. This function is mostly useful for debugging while preventing to mess up the output table.
+--verbose
+This will print out intermediate results of the dataframe after every major step. This is mainly useful for debugging and comes at a cost: every step the dataframe is cached and all new transformations are executed. This will prevent optimizations, but it provides some transparency into the individual transformation steps.
+--append-data
+By default new event data is written into the output table using the ‘update’ write mode, where all affected partitions are automatically deleted and then filled with the content of the written dataframe. This can be slow and the table may not be accessible during the write operation. As an alternative, you can enforce write mode ‘append’ using --append-data. This will simply append the detected events into the output table. This implies that there is another external method to prevent duplicates and to remove already existing data for the affected partitions (e.g. a pre-processing step in your DAG).
+--load-from-s3
+The input data will be loaded directly from S3 instead of from the hive table. This can be used to detect files that have been modified between a certain time range to load data not based on a fixed date, but on new data that was written into the input table during the specified time range. 
+The following options can be used together with --load-from-s3
+--file-loader-start
+The datetime that marks the start of the time interval durign which files have to be modified to be loaded in this run.
+--file-loader-end
+The datetime that marks the end of the time interval during which files have to be modified to be loaded in this run. The end must be larger than the start.
+--file-loader-look-back
+The number of days to look back in the ‘date’ partitions to find files that have been modified within the specified modification time interval.
+Input and Output Configuration
+Vehicle Signal Input
+This input can be specified with all parameters supported by the VehicleInputDataHandler.
+data-source:
+  dates: "2021-07-09:2021-07-20"
+  vins: "50EA%"
+Both parameters can also be provided via command line arguments:
+--date '2021-12-05' --vins 'MY_VIN_123'
+Event Output Table
+The main output table can be set with a set of parameters supported by DatabaseConnector:
+output-table:
+  database: data_science_dev
+  database-type: presto
+  table-name: "my_table_name"
+  partitions: ['date']
+Note that you can store the events in any of the supported database systems (Presto, MySQL, Redshift).
+Optionally, you can specify a s3-location , but in most cases you should go with the default to follow our naming and storage conventions. 
+Parameter s3-location is optional and is only needed if you want or need to enforce a non-standard s3 path. Otherwise, the path will be automatically determined based on the location (e.g. target cluster) and table name. Using automatic paths is recommended to stay consistent with our naming convention, and to simplify the migration of scripts between clusters.
+Additional Output Table
+This configures an additional table to copy detected results to. The current main application is to maintain a copy of events in Presto and MySQL. The presto table can be used for efficient queries in other scripts, while the MySQL event data is used to annotate events (comments, labels, etc.). This section supports all parameters supported by DatabaseConnector.
+copy-output:
+  database: data_science_dev
+  database-type: mysql
+  table-name: ->(default-params/table-name)
+Main Detector Configuration
+Input Signal Configuration
+New Configuration
+event-detection:
+  time-scale: '5 sec'
+  distinct: False
+  ffill: False
+  addtl-sql-filter: "value > 0.301"
+  lags:
+    - 1
+    - 5
+  original_signals_table:  "vehicle_signals.vehicle_original_signals_flat"
+  1hz_signals_table: "vehicle_signals.vehicle_1hz_signals_flat"
+time-scale
+The time-scale option specifies at what time interval input data from the 1Hz table is aggregated at. The time window is specified with an integer and a time unit ('sec', ‘min’, ‘hrs’).
+Example: At ‘5 sec’ the data is aggregated into time buckets of 5 sec each. All data rows of a VIN that calls into the same bucket are aggregated according to the required aggregation (e.g. min(mins), max(maxs), sum(count), etc.
+distinct
+If true, then the initial data query is run with the DISTINCT flag enabled. This is a very expensive operation, because it needs to sort the data. This should only be used if it is absolutely necessary.
+ffill
+If true, then rows with missing data will be forwards-filled with the last known previous value. This is useful to propagate infrequently occurring state messages to all other rows to allow their use in trigger conditions. Note that ffill affects ALL signals currently.
+(  this paragraph needs admin confirmation) The ffill option only forward-fill rows whose data column is missing but the timestamp is still present. If the entire row is missing, then these rows will not be extrapolated. For example:
+Raw input signal	Input signal with ffill = True
++----+---------+-------+
+| vin|timestamp|signal1|
++----+---------+-------+
+|vin1|        0|      1|
+|vin1|     1000|      2|
+|vin1|     3000|      4|
++----+---------+-------+	+----+---------+-------+
+| vin|timestamp|signal1|
++----+---------+-------+
+|vin1|        0|      1|
+|vin1|     1000|      2|
+|vin1|     3000|      4|
++----+---------+-------+
++----+---------+-------+
+| vin|timestamp|signal1|
++----+---------+-------+
+|vin1|        0|      1|
+|vin1|     1000|      2|
+|vin1|     2000|   null|
+|vin1|     3000|      4|
++----+---------+-------+	+----+---------+-------+
+| vin|timestamp|signal1|
++----+---------+-------+
+|vin1|        0|      1|
+|vin1|     1000|      2|
+|vin1|     2000|      2|
+|vin1|     3000|      4|
++----+---------+-------+
+addtl-sql-filter
+This option allows to specify an additional filter to reduce the initial query. For instance, if it is known that all involved trigger conditions only look at signal values greater than 0.5, then a filter like ‘value > 0.5’ strips off all values lower than 0.5 that would not help with the trigger condition anyway. The filter will be applied to ALL input data, so make sure your filter is specific enough to not exclude needed data.
+lags
+This specifies a list of requested lags that will be available in each row to be used in trigger conditions. Each lag corresponds to the data of the <n>th previous row. Note that you get lags of all the variables.
+TODO: This should be available for lead, too. And both should allow the selection of row or timebased lags. 
+catalog
+This is a switch which 1hz input table to use: 
+•	‘hive’: This is the old 1hz hive table vehicle_signals.vehicle_1hz_signals_flat
+•	‘iceberg’: This is the newer 1hz Iceberg table vehicle_signals_vehicle_1hz_signals_flat_v2
+original_signals_table, 1hz_signals_table
+Optionally, you can specify other input tables or the tables for milliseconds (original_signals_table) and all other 1hz-based tables (1hz_signals_table). Usually, there is no need to change the table name. But if you cache vehicle data for faster retrieval in multiple DAGs, then this option allows you to run the event detection against the cache table.
+Emulated Milliseconds Configuration
+To run the event detector at millisecond scale (emulating the old vehicle_original_signals_flat table), you can set the time-scale to “emuated-milliseconds". All signals must be specified with the COL(<signalname>) function. However, COL() shall not be used when referring to signals with lags (see the example later on this page: “Detect changes from 2, 3, or 4 to 0 when using emulated-millisecond”). Other aggregatations (such as MAX(), MIN()< LAST(), ...) are not supported in emulated millisecond mode. 
+To minimize the data volume queried from the 1hz table and being transformed into ms scale rows, you can use an additional option emulated-millisecond-sql-filter to narrow down the initial query. Note that any filter statements are applied to a table with the vehicle_1hz_signals_flat schema. Note that all signals also have to be provided via the enumerated-signals and continuous-signals options. 
+event-detection:
+  time-scale: 'emulated-millisecond'
+  distinct: False
+  enumerated-signals: "ITrmsOilPmpFrnt_St,\
+                       ITrmsOilPmpFrnt_DryRunErr"
+  continuous-signals: "IMCUR_TqDerateFac"
+  emulated-millisecond-sql-filter: "value_count > 1 and value_max > 0.5"
+  addtl-sql-filter: "value > 0.5"
+  1hz_signals_table: "vehicle_signals.vehicle_1hz_signals_flat"
+Bitfield Decoding
+In some cases we have signals that provide an unsigned 32 bit Integer that needs to be interpreted as a bitfield. In that case each bit can be set or unset, indicating that a certain state (e.g. a DTC) is set or not. 
+To decode such bitfields the event detector provides some configuration options to map bit positions to strings based on lookup tables. Such tables can be provided in the configuration. To differentiate between different software / encoding versions, the configuration may contain multiple versions of the lookup table, and an external version table can be used to determine the correct mapping table for each vin at a particular date.
+event-detection:
+  ...
+  version-table: data_science_dev.mcu_version_numbers_v2
+
+  bitfield-encodings:
+    default-version: '12'
+    EncodedSignalName1: 
+      '0f': &s2r15_diagc_F
+        13: "PmpNodMissDiagc"
+        14: "DCLinkVoltLowDiagc"
+        15: "EncDiagc"
+        16: "OverSpdDiagc"
+      '10': &s2r16_diagc_F
+        0: 'RCM_SAFESTATE'
+        1: 'DCLINKUV'
+        2: 'DCLINKOV'
+        3: 'MOTOVERSPD'
+        13: 'RESCOSFB_OORL'
+        14: 'RESSINFB_OORH'
+        15: 'RESCOSFB_OORH'
+        16: 'VCUNODEMISS'
+      '03': *s2r15_diagc_F
+      '12': *s2r16_diagc_F
+    EncodedSignalName2: 
+      '05': &s2r15_diagc_sign2_F
+        13: "PmpNodMissDiagc"
+        14: "DCLinkVoltLowDiagc"
+        15: "EncDiagc"
+        16: "OverSpdDiagc"
+      '06': *s2r15_diagc_sign2_F
+      '12': *s2r15_diagc_sign2_F
+Explanation:
+If used with an external (ArXML) version table then option event-detection/version-table can be used to specify which table to query. That table must provide the following columns at a minimum:
+vin, date, signalname, timestamp, release_num
+At runtime the event detection script will query this table to find all release numbers for each required VIN and DATE, and use this information to choose the right mapping table.
+Alternatively, if no such table is available or to optimize performance in cases where the release number is well known, you can also specify the optional parameter event-detection/bitfield-encodings/default-version to specify the release number to use. Note that at this time, the default version applies to ALL bit encoded input signals in the configuration. If there is a need to provide a default for each signal, we have to schedule a refactoring ticket. In the meantime you can create a new ‘default’ release num in your signals ad set the default-version to that ‘default’.
+In section event-detection/bitfield-encodings you can specify an individual decoding map for each relevant input signal. Each signal requires at least one section with a release number (decoding version), that contains the mapping between bit positions and a clear text string. 
+As shown in the example, you an use yaml syntax to define a configuration link with &<config_name> and then reference the same subtree in other places. This prevents to have multiple copies of the same configuration tree in the same config. In the example above *s2r15_diagc_F means that yaml should repeat the content found in the subsection marked with '0f': &s2r15_diagc_F.
+The output of the decoding will be a new column per input signal that contains an array with the strings for which the related bit positions were set in the input value. In your trigger conditions, you can access these arrays like so: 'PmpNodMissDiagc' in COL(EncodedSignalName2_decoded) . Note that you need to use the prefix _decoded after the signal name to get its decoded values. 
+Input Events Configuration
+event-detection:
+  input-events:
+      vehicle_not_idle:
+        database:  "data_science_dev"
+        table-name: "fleet_efficiency_v10_velocity_based_trips"
+        database-type: spark
+        start-ts-col-name: start_ts
+        end-ts-col-name: end_ts
+        sql-filter: ""
+This section allows to define an external source for event data that can be used in trigger conditions. 
+The start-ts-col-name and end-ts-col-name default can be used to manually override the default column names that contain the start and end of the events in the specified table. 
+An optional sql-filter can help to further reduce the selected events to improve performance.
+Event Trigger Configuration
+Event Triggers
+event-detection:
+  trigger-events:
+      event-name:
+        trigger-condition: 'MAX(ITrmsOilPmpFrnt_St) = 3 and NOT EVENT(vehicle_not_idle)'
+        window-size: 60000
+        alias: 'front-oilpump-error-status'
+        related-signals:
+          Optional_Signals_1: "IBMU_StatsPkBlkVoltMax0,IBMU_StatsPkBlkVoltMax1"
+        filter-condition: DURATION(5000)
+Each event comes with a name event-name that later can be overwritten with a column alias if needed. 
+A optional list of related-signals can be given to provide some extra information for URLs and other upstream processing. This is not needed, but can help in some cases to identify the signals that are relevant with respect of the detected event.
+(  this paragraph needs admin confirmation). The window-size specifies the max time duration between two consecutive events that are still considered to be part of the same event. For example, if you have 5 triggers with 10 seconds distance and your window-size is 10,000 millisecond, then you get a single event that starts at the first trigger and ends with the last (so it would be 40 sec long). The unit of window-size is always millisecond. The column trigger_count in the output table is the total number of triggers for that event. In the above example, trigger_count = 5.
+The trigger-condition defines the main condition to determine if the event has been observed. Each trigger condition is evaluated (in Python) for each data row to determine if a condition is met. Thus, the trigger condition needs to be valid Python (except for the DSL column qualifiers COL, MIN, MAX, EVENT, etc.). For example, we can use the function abs() in the trigger-condition because it is a built-in Python function. However, we cannot use ABS() or sin() in the trigger-condition because the former is written in upper case so Python cannot recognize that; the latter is not available without an import thus cannot be recognized.
+The condition itself can be defined as described below:
+Simple expressions related to columns:
+For time-scales in the new format ('x sec', ‘x min’, ‘x hrs’) based on the 1hz table, trigger conditions can have the following additional column specifiers: 
+MIN(<signal_name>) : the minimum value of the value_min column 
+MAX(<signal_name>) : the maximum value of the value_max column
+LAST(<signal_name>) : the last value of the value_last column 
+COUNT(<signal_name>) : the sum of the value_count column
+AVG(<signal_name>) : the avg of the value_avg column. NOTE that this is not an accurate AVG as is. This needs refactoring!
+MAX_STR(<signal_name>): the maximum string from the str_value_max column (only on Customer Prod so far!)
+HISTORY(<signal_name>): the flattened combined array of the value_history column.
+Examples:
+MIN(column_name) = <value>
+LAST(column_name) BETWEEN Value1 AND value2
+
+MIN(column_name) > MAX(comparison_column) (=, <, <=, >, >=)
+AVG(column_name) > COUNT(comparison_column) + <value>
+
+"value" in MAX_STR(signal_name) OR MAX_STR(signal_name) != ""
+5.0 in HISTORY(status_signal) AND len(HISTORY(status_signal) > 5)
+
+Proposed additional operators:
+LAST_NNULL() : the last non-NULL value in value_last
+AND(), OR(): for custom boolean columns
+FIRST() : the first value in the combined value_history
+FCT(<column_name>, <SQL_select>, <SQL_agg>, <signal_name>)
+LAG(<column_name>, lag_steps)
+LEAD(<column_name>, lead_steps)
+LAG(MIN(signal_name), 1) == 5 and MIN(signal_name) == 6
+
+AND(boolean_column) == True
+
+FCT('greater_5', value_min > 5.0', signal_name) == True
+Expressions related to present Events at a timestamp:
+EVENT(event_name)
+This condition evaluates to true if the start/end timestamps of this row overlap with the start/end timestamp of at least one occurrence of an event with name event_name.
+Negation
+NOT <expression>
+Logical Expression
+(<expression1> AND <expression2>) OR <expression3>
+DURATION Filter and Other Filters
+Some filters can be applied to the final aggregated detected events, e.g. to remove unwanted detected events based on length. These filters must be specified in the filter-condition parameter. 
+The only supported filter for now is DURATION to filter for events based on their overall aggregated duration. 
+The syntax is DURATION(<min-duration>) or DURATION(<min-duration>, <max-duration>.
+filter-condition:
+  DURATION(0, 1851000)
+  DURATION(5000)
+For example, filter-condition: '(DURATION(0,100) OR DURATION(5000)) AND NOT DURATION(6000, 6000) 
+Only keep events with a duration of less than 100 millisecond or more than 5000 millisecond, excluding events with exactly 6000 millisecond.
+Complex Event Examples
+•	The disengagement of L2 highway assist while all sensors are working and the assist was active. 
+•	event-detection:
+•	  time-scale: '5 sec'
+•	  ffill: True
+•	
+•	event-detection:
+•	  trigger-events:
+•	      highway-disengagement:
+•	        trigger-condition: 'LAST(disengagement_signal) = 1 
+•	                            AND LAST(highway-assist-running) = 4 
+•	                            AND LAST(MFC_health_status) = 0
+                            AND LAST(FRR_health_status) = 0'
+•	Trunk is open while the car is driving, using an external event to determine when the car is driving. Detected triggers less than 5 seconds apart are considered to be part of the same event to avoid too many unnecessary notifications.
+event-detection:
+  time-scale: '1 sec'
+  ffill: False
+  
+event-detection:
+  input-events:
+      vehicle_driving:
+        database:  "data_science_dev"
+        table-name: "fleet_efficiency_v10_velocity_based_trips"
+        database-type: spark
+
+event-detection:
+  trigger-events:
+    acc_while_charging:
+      trigger-condition: 'LAST(trunk-open) AND EVENT(vehicle-driving)'
+      window-size: 5000
+      filter-condition: DURATION(10000, 1851000)
+•	Detect if ecu_status changes from 5 to 2.
+•	event-detection:
+•	  time-scale: '1 sec'
+•	  ffill: True
+•	  lags:
+•	  - 1
+•	  
+•	event-detection:
+•	  trigger-events:
+•	    acc_while_charging:
+      trigger-condition: 'MAX(ecu_status_lag1) = 5 AND MAX(ecu_status) = 2'
+•	Detect changes from 2, 3, or 4 to 0 when using emulated-millisecond
+•	event-detection:
+•	  time-scale: 'emulated-millisecond'
+•	  distinct: False
+•	  ffill: True
+•	  enumerated-signals: "IMPB_EVSEType"
+•	  continuous-signals: ""
+•	  1hz_signals_table: "vehicle_signals.vehicle_1hz_signals_flat"
+•	  lags:
+•	    - 1
+•	
+•	  trigger-events:
+•	    event-name:
+•	      trigger-condition: '(IMPB_EVSEType_lag1 == 2 OR IMPB_EVSEType_lag1 == 3 OR IMPB_EVSEType_lag1 == 4) AND (COL(IMPB_EVSEType) == 0)'
+•	      window-size: 1000  
+      alias: 'event-name'
+Example for emulated milliseconds:
+event-detection:
+  1hz_signals_table: data_science_signals.ds_vehicle_1hz_signals_flat
+  time-scale: 'emulated-millisecond'
+  distinct: False
+  enumerated-signals: "ITrmsOilPmpFrnt_St,ITrmsOilPmpRear_St,"
+  continuous-signals: ""
+  emulated-millisecond-sql-filter: "msggroup in ('ITrm') and value_max >= 3.0"
+  addtl-sql-filter: "value = 3.0"
+  
+  input-events:
+    vehicle_not_idle:
+      database:  "data_science_dev"
+      table-name: "fleet_efficiency_v01_velocity_based_trips"
+      database-type: spark
+      start-ts-col-name: start_ts
+      end-ts-col-name: end_ts
+      sql-filter: ""
+
+  trigger-events:
+    front-oilpump-error-status:
+      window-size: 10000
+      trigger-condition: 'COL(ITrmsOilPmpFrnt_St) = 3 and EVENT(vehicle_not_idle)'
+    rear-oilpump-error-status:
+      window-size: 10000
+      trigger-condition: 'COL(ITrmsOilPmpRear_St) = 3 and EVENT(vehicle_not_idle)'
+
+
+
+
+
+
+event-detection: 
+	$time-scale: 'emulated-millisecond' 
+	$distinct: False 
+	$emulated-millisecond-sql-filter: <additional filter statement> 
+	$enumerated-signals: [<list of enumerated signals>] 
+	$continuous-signals: [<list of continuous signals>] 
+	$event-triggers: 
+		$$Simple expressions related to columns: 
+		$$Examples: 
+		$$Proposed additional operators: 
+		$$Expressions related to present Events at a timestamp: 
+		$$Negation 
+		$$Logical Expression 
+	$DURATION-filter: <duration_filter_expression> 
+	$other-filters: [<list of other filters>]
+
+
+
+
+
+
+
+
+
+
+
+
+
+

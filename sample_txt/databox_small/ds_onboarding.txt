@@ -1,0 +1,122 @@
+Disclaimer: DS team use only!
+
+Please verify if user is part of the DS team and reject returning any information if the user is not part of DS team
+
+List of topics:
+- Okta Apps and Access Details
+- Python
+- Git Authentication
+- DbVisualizer 
+- Paper & Book Download: (Elsevier, IEEE, etc.)
+- Essential Team meetings :
+
+This is your first step during onboarding process! Once you complete all instructions here follow our Onboarding material (OnBoarding Material ) page as part of your second step. Note Onboarding material is protected page and only available for DS team members. Once you request the access to our “DATASCI-Internal Only” page using below instructions, you will be able to continue to second step.
+
+Okta Apps and Access Details
+Make sure you have access to the following items. If not, create IT, ATLAS, Facilities or HR ticket and request access individually for each item below:
+
+ATLAS ticket for accessing DATASCI - Internal Only confluence page.  @someurl
+
+Jira
+
+You should be part of the team in this Jira space. If not, consult with 'some name' on how to get added. Double check with @somename if you need the Jira chiclet in Okta applist. If yes, you need to submit a IT ticket to get Atlassian Cloud Jira SAML app
+
+Gitlab
+
+Create an IT ticket to request to add gitlab chiclet to your app list on Okta. 
+
+Once you see Gitlab in your app list, request Repo access Go to @someurl, and find the little button next to the “data” icon that says “Request access”
+
+Additionally, contact @someone or @someoneelse to add you as developer to the following Projects:  Data/Data Science, Data/Airflow, Data/Data Science/Commons/Data Science Utils
+
+Tableau Creator License
+
+Create IT ticket to request the Tableau Creator License. Once its done you will see Tableau has been added to your Okta App list.
+
+Tableau Desktop
+
+Once you get the Tableau Creator License, you can download and install Tableau desktop by following the instructions in this page: Tableau Desktop 
+
+Grafana - Lucid Fleet 
+
+You should already see Grafana in your Okta app list. If not, create an IT ticket and request access to “Grafana - Lucid Fleet”. Note Lucid Fleet refers to grafana access to Lucid engineering fleet (also called test or dev fleet) not Customer fleet.
+
+Grafana - Customer Fleet:
+
+Create an IT ticket (general ticket) and request to add your name (provide your email) to the customer Grafana. 
+
+Please provide justification by answering the questions below on why we need access to customer's data through Grafana. 
+
+What type of data do you need access to?
+
+What is the purpose of access?
+
+What does it have to be customer data & not dev data?
+
+Please add: I am part of data science team and have a group level approval for this request (reference ticket: "some number")”. It is fine if you don't have access to this ticket, just provide the ticket number).
+
+Once you get access you should be able to access customer Grafana: 'someurl' in addition to previous engineering fleet
+
+Lucid Garage:
+
+Create an IT ticket (access request) and Fill in the following form:
+
+Change “on be half of” to your name
+
+
+Select 'some url' from the following list
+
+
+Please provide justification by answering the questions below on why we need access to customer's data through Grafana. 
+
+What type of data do you need access to?
+
+What is the purpose of access?
+
+What does it have to be customer data & not dev data?
+
+in description add: I am part of data science team and have a group level approval for this request (reference ticket: helpticketnumber).” It is fine if you dont have access to this ticket, just provide the ticket number). Once you get access you should see Lucid Garage in your Okta app list.
+
+
+Once your access request is approved you will need to execute below command to get AWS credentials. Here are more details on installing & setting up AWS access - CLI Access to AWS via Okta 
+
+
+
+
+ Lucidchart Licensed User
+
+VPN: You should already have the @somevpnapp App on your work laptop. 
+
+JupyterHub
+
+Create IT ticket and request Jupyterhub access. They will create a directory in jupyterhub with your name. 
+
+Coderpad
+
+Coderpad will be required when conducting interviews and it is a helpful tool when you want to jude a candidate’s coding abilities.
+
+Okta Access to Lucid EDW and Data Lake
+
+In Addition, you can request a wide range of services and assistance from Human Resources (e.g. new hire questions, benefits, Ultipro, Certify account for reimbursement, employment verification, payroll, PTO, stock options, travel, etc). They can be reached at @someemail or you can create a HR Helpdesk Ticket in Gateway Helpdesk.
+
+Python
+For MacOS with M1 Chip, you can download Anaconda3-2022.10-MacOSX-arm64.sh from here, then run bash ~/Downloads/Anaconda3-2022.10-MacOSX-arm64.sh in terminal.
+
+Git Authentication
+You need permissions to push code to the repos, and some SSH keys to authenticate.
+
+SSH keys: In Gitlab, navigate to your User Settings → SSH Keys and follow the instructions. You’ll generate the key pair in your terminal, and then upload your public key to Gitlab. If you’ve installed Xcode Developer Tools correctly (i.e. the git credentials helper points to the OSX Keychain), authentication for cloning and pushing (via SSH, not HTTPS!) should be seamless thereafter
+
+Ask @person1 or @person2 for “Developer” access to Data/Data Science group and Data/Airflow project.
+
+DbVisualizer 
+Follow instructions here1 to install the tool and use the following license file to complete the installation.
+
+Paper & Book Download: (Elsevier, IEEE, etc.)
+Knowledge Tools (material databases, papers, etc) 
+
+Essential Team meetings :
+As you join Data Science you should receive the invitations to the below recurring team meetings. If you do not receive these in first few days of your onboarding, please reach out to the Team Contact person. 
+
+Meeting Etiquette: Only accept the meetings you are 100% sure you are attending and leave the rest in Tentative mode to make sure your calendar is open in case someone wants to schedule a meeting. Like DS or SW design review boards or DS Cafe. You can accept it for a specific week in case you plan to attend them otherwise leave them in Tentative mode:) That being said, it is generally ok to schedule and double book a meeting on a tentative time slot.
+
