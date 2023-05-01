@@ -140,7 +140,7 @@ lxml @ file:///private/var/folders/nz/j6p8yfhx1mv_0grj5xl4650h0000gp/T/abs_71bcf
 lz4 @ file:///Users/ktietz/demo/mc3/conda-bld/lz4_1630656244676/work
 Markdown @ file:///Users/ktietz/demo/mc3/conda-bld/markdown_1629712599908/work
 markdown-it-py==2.2.0
-MarkupSafe @ file:///Users/ktietz/demo/mc3/conda-bld/markupsafe_1629137411893/work
+MarkupSafe==2.1.2
 marshmallow==3.19.0
 marshmallow-enum==1.5.1
 matplotlib @ file:///private/var/folders/nz/j6p8yfhx1mv_0grj5xl4650h0000gp/T/abs_5fi9l6u9e6/croots/recipe/matplotlib-suite_1660167931049/work
