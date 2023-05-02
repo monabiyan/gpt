@@ -31,7 +31,7 @@ class Chatbot:
         return self.qa.run(question)
 
 #env variable
-OPENAIKEY='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'
+OPENAIKEY='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'
 databox='./sample_txt/fmvss/'
 
 bot = Chatbot(databox, OPENAIKEY)
