@@ -1,0 +1,342 @@
+EventFeatureGenerator
+
+
+Created by @somename (Deactivated)
+Last updated: Mar 17, 2023 by @somename min read
+29 people viewed
+Initializing...Initializing...
+Introduction
+Where is it?
+How do I use it?
+Another example:
+How should I configure the inputs?
+Table Specification
+Signal Table
+Event Table
+Output Table
+Feature Specification
+Supported Input Columns (input_value_agg)
+Supported Attributes
+All Input Tables
+Original Signals
+1hz Signals
+Custom Columns
+Example
+Suggested improvements
+Bugs
+Introduction
+This is a feature extraction framework for events of arbitrary length. The general idea is to obtain summary statistics on time series in segments before, during and after the event itself. For instance, the average speed in the last minute before the event starts. Consider this terrible drawing as an illustration:
+
+
+Here we have a single event (with a unique identifier) sourced from the “Event Table” on the left. It runs from ts_1 to ts_2. We subdivide the event into segments of 1 minute length, and calculate summary statistics (e.g. max(), min(), etc.) for each such segment. We also want 10 minutes of data (again in 1 minute segments) before and after. A table is generated with one row per such segment and put into the “Feature Store” (for now, just a Presto table). Each event in the “Event Table” will give rise to some variable number of rows in the “Feature Store” depending on the event length, segment size and the desired time before and after. See the explanation of “Feature Specification” below on this page for more detail.
+
+Feature definitions are stated in a YAML file on roughly the same format as the trip feature extraction framework -- from which like 95% of the code here was derived anyway. Thanks, @somename and @somename!
+
+Includes extensive test cases (which take a few minutes to run because they hit Presto), and a real-life example from the MCU team (which assumes that you have CSV or Excel input).
+
+Output will consist of one row per event and segment, with various indexing columns (telling you when this happened, to which vehicle, etc.) and a bunch of feature columns as defined by the configuration file. 
+
+The input/output tables can now be specified in the YAML file:
+
+input table for vehicle data (e.g. vehicle_1hz_signals_flat)
+
+table to read events from (including a select statement to narrow down the required events)
+
+table to write the results into
+
+All tables support Presto, MySQL and Redshift.
+
+Where is it?
+The feature generator has its own repository: 
+@someurl
+
+How do I use it?
+There’s an example of how to use the functionality with CSV/Excel input of events in the extract-event-features.py script.
+
+Another example:
+
+bash bin/generate_event_feature_dataset.sh --config test/feature_extraction_config_test.yaml --spark-config ds_utils/config/cluster/cluster_config_local.yaml
+How should I configure the inputs?
+For your events, you need a table with at least the following columns. If your table doesn’t contain all of these columns, you can inject the missing ones in your event selection query (see below). E.g. if you only have one type of event in your table, add something like “'my_event' AS event_name” to the query.
+
+date: Date of event
+
+vin: Vehicle Identification Number
+
+event_name: What type of event was this? Mostly useful if you have a table with multiple types of events (can otherwise be left constant).
+
+id: A unique event identifier (not actually required to be unique at present; any integer will do)
+
+event_start_ts: Starting epoch millisecond.
+
+event_end_ts: Ending epoch millisecond. May be identical to event_start_ts for instantaneous events.
+
+ 
+
+Table Specification
+Signal Table
+Specifies the table to use for vehicle data. Currently, only vehicle_1hz_signals_flat is supported.
+In the near future you can also point this to vehicle_original_signals_flat or custom tables with already customized columns.
+
+
+signal-source:
+  database: vehicle_signals
+  table-name: vehicle_1hz_signals_flat
+  database-type: spark
+Event Table
+Defines which events to use as baseline for the datasets.
+
+
+event-table:
+  table-name:   ds_events_oilpump_failures_10min_v05
+  database:     data_science_dev
+  database-type: mysql
+  selection:    "select * from {table} where date = '->(my-config/date)' and vin = '@someVINnumber'"
+  start-ts-column: event_start_timestamp
+  end-ts-column:   event_end_timestamp
+The selection section allows you to narrow down the events in the table to the subset for this call, or to inject any columns which are missing from your table but specified as necessary above. 
+
+Variables start-ts-column and end-ts-column specifies the column names to use for the start and end timestamp of each event. Both variables may use the same column name, e.g. if your event table only contains instantaneous events with no duration. 
+
+Output Table
+Specifies where to write the resulting dataset rows to.
+
+
+output-table:
+  table-name: the-outout-table-data
+  database: data_science_dev
+  database-type: presto
+  data-location: s3a://lucid-data-dev-pdx-lake-data-science-dev/the-outout-table-data
+  partitions: ['date', 'vin', 'event_name']
+All output table options are default options from TableHandler.
+
+Feature Specification
+To define the features, you will use a YAML file as shown in “Example” below. To break down a single example a little more:
+
+
+features:                                    # Configuration section for features  
+  veh_speed:                                 # Arbitrary identifier for this feature
+    name: speed_squared                      # Name of the resulting feature column
+    input_value_agg: avg                     # From the 1Hz table, which type of value aggregation do you want?
+    equation: IVehSpd**2                     # An equation describing how to compute the feature from possibly many input signals 
+    attributes: avg, min, max, q_10, q_90    # Which aggregations do you want to compute on the equation within each segment?
+    lags:                                    # Optional; use to get lags of your feature over segments
+      num_lags: 2                            # How many segments back should we look?
+      attributes: avg, q_90                  # Which aggregations on the past segment do we want?
+Note that all variables contained in the equation will be pulled from the 1Hz table with the same aggregation strategy (above, averaging). If you used a status signal (for which you may want “max” or “last” aggregation) and a continuous signal, you’d have to settle for one aggregation type between the two of them.
+
+The segments are also defined in the same YAML:
+
+
+time-segments:         # Configuration section for segments
+  length: 1            # How many of the time units should the segment contain?
+  unit: minute         # Any unit supported by pandas Timedelta class
+  segments-before: 3   # How many segments before the event?
+  segments-after: 2    # How manys segments after the event?
+                       # Note that there's no segments-during. The number of segments
+                       # depends on the event length and the segment size, and is
+                       # computed dynamically at runtime for each event.
+Supported Input Columns (input_value_agg)
+Configuration option input_value_agg can have the following values:
+
+Option
+
+Input Table
+
+Input Column
+
+Description
+
+orig
+
+original_signals
+
+value
+
+Individual vehicle message (ms timescale)
+
+min
+
+1hz_signals
+
+value_min
+
+Min value within 1 sec bucket
+
+max
+
+1hz_signals
+
+value_max
+
+Max value within 1 sec bucket
+
+first
+
+1hz_signals
+
+value_first
+
+First value of the 1 sec bucket
+
+last
+
+1hz_signals
+
+value_last
+
+Last value of the 1 sec bucket
+
+count
+
+1hz_signals
+
+value_count
+
+Number of messages in this 1 sec bucket
+
+flag_<number>
+
+1hz_signals
+
+value_history*
+
+Any occurrence of <number> in the 1 sec bucket
+
+ 
+
+Supported Attributes
+All Input Tables
+min, max, sum, flag_<number>, count, start_ts, start, end, 
+
+Original Signals
+avg, median, pos_avg, neg_avg,, pos_sd, neg_sd, pos_count, neg_count, end_ts, frac_<number>, q_<number>
+
+1hz Signals
+avg and median are only approximate correct. Use with caution.
+
+Custom Columns
+In addition to the feature columns generated from the above spec, you can also add custom columns. This is useful to mark a specific run with a version number, batch IDs, etc, that becomes then part of the dataset rows for an easier filtering.
+
+
+extra-columns:
+  version: 5.1
+  batch: 12
+The script will automatically create the required tables created_timestamp and updated_timestamp.
+
+Example
+For instance, with events
+
+date
+
+vin
+
+event_name
+
+id
+
+event_start_ts
+
+event_end_ts
+
+'2021-05-01'
+
+'@someVINnumber'
+
+'event_one'
+
+1
+
+@someVINnumber
+
+@someVINnumber
+
+'2021-05-01'
+
+'000014'
+
+'event_two'
+
+2
+
+@someVINnumber
+
+@someVINnumber
+
+'2021-05-03'
+
+'000014'
+
+'event_two'
+
+3
+
+@someVINnumber
+
+@someVINnumber
+
+and the feature YAML configuration
+
+
+my-config:
+  date: '2021-07-10'
+  version: 1.0
+  batch: 1
+
+signal-source:
+  database: vehicle_signals
+  table-name: vehicle_1hz_signals_flat
+  database-type: spark
+
+event-table:
+  table-name:   ds_events_oilpump_failures_10min_v05
+  database:     data_science_dev
+  database-type: spark
+  selection:    "select * from {table} where date = '->(my-config/date)' and vin = '@someVINnumber'"
+  start-ts:     event_start_timestamp
+  end-ts:       event_end_timestamp
+
+output-table:
+  table-name: test_attribute_generator_cr1
+  database: data_science_dev
+  database-type: spark
+  data-location: @somelocation
+  partitions: ['date', 'vin', 'event_name']
+
+extra-columns:
+  version: ->(my-config/version)
+  batch: ->(my-config/batch)
+
+time-segments:
+  length: 1
+  unit: minute
+  segments-before: 3
+  segments-after: 2
+
+features:
+  odometer:
+    name: IOdometer
+    input_value_agg: avg
+    equation: IOdometer
+    attributes: start, start_ts, end, end_ts, delta
+
+  aero_drag_power_R21:
+    name: Aero_Drag_Power_R21
+    input_value_agg: avg
+    equation: (0.02684774484 * (IVehSpd ** 2)) * IVehSpd / 3600.0
+    attributes: avg
+
+  regen_switch:
+    name: IVCU_RgnBrkgOnOffSt
+    input_value_agg: last
+    equation: IVCU_RgnBrkgOnOffSt
+    attributes: frac_0, frac_1
+
+  speed:
+    name: IVehSpd
+    input_value_agg: avg
+    equation: IVehSpd
+    attributes: avg, min, max, q_10, q_90
+    lags:
+      num_lags: 2
+      attributes: avg, q_90
